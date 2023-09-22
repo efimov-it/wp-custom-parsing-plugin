@@ -1,7 +1,5 @@
 <?php
 
-
-
 function TME_categories () {
     require_once 'tme_api.php';
 
