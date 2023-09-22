@@ -1,0 +1,1619 @@
+TotalProducts,Id,Depth,ParentId,Name,SubTreeCount
+131586,112140,1,111000,Semiconductors,13
+28911,112141,2,112140,Diodes,6
+6721,100179,3,112141,"Universal diodes",4
+2661,112791,4,100179,"SMD universal diodes",0
+2074,113119,4,100179,"THT universal diodes",0
+1443,112792,4,100179,"Stud mounting universal diodes",0
+543,112793,4,100179,"Diodes - others",0
+5520,112795,3,112141,"Schottky diodes",3
+3737,112796,4,112795,"SMD Schottky diodes",0
+1776,112797,4,112795,"THT Schottky diodes",0
+7,112798,4,112795,"Stud mounting Schottky diodes",0
+6400,100257,3,112141,"Zener diodes",3
+4959,100576,4,100257,"SMD Zener diodes",0
+1208,100254,4,100257,"THT Zener diodes",0
+233,112799,4,100257,"Stud mounting Zener diodes",0
+8770,100253,3,112141,"Transil diodes",3
+5856,112800,4,100253,"SMD transil diodes",2
+3168,112801,5,112800,"Unidirectional SMD transil diodes",0
+2688,112802,5,112800,"Bidirectional SMD transil diodes",0
+2496,112803,4,100253,"THT transil diodes",2
+1243,112804,5,112803,"Unidirectional THT transil diodes",0
+1253,112805,5,112803,"Bidirectional THT transil diodes",0
+418,113178,4,100253,"Transil diodes - arrays",0
+21,112806,3,112141,"Special diodes",0
+1479,113441,3,113440,"Diode modules",0
+3315,112807,2,112140,"Bridge rectifiers",2
+2656,112808,3,112807,"Single phase bridge rectifiers",2
+2516,100287,4,112808,"Single phase diode bridge rectifiers",5
+546,112809,5,100287,"SMD/THT sing. phase diode bridge rectif.",0
+53,112810,5,100287,"Round single phase diode bridge rectif.",0
+1103,112811,5,100287,"Flat single phase diode bridge rectif.",0
+642,112812,5,100287,"Square single phase diode bridge rectif.",0
+172,112813,5,100287,"Sing. ph. diode bridge rectif. - others",0
+140,112814,4,112808,"Single phase controlled bridge rectif.",0
+659,112815,3,112807,"Three phase bridge rectifiers",2
+607,112816,4,112815,"Three phase diode bridge rectifiers",0
+52,112817,4,112815,"Three phase controlled bridge rectif.",0
+4031,113440,2,112140,"Discrete semiconductors modules",5
+1479,113441,3,113440,"Diode modules",0
+639,112823,4,112822,"Thyristor modules",0
+351,112824,4,112822,"Diode - thyristor modules",0
+555,113458,4,17,"Transistor modules MOSFET",0
+1007,100311,4,112839,"IGBT modules",0
+3310,19,2,112140,Thyristors,2
+2320,100181,3,19,"Single thyristores",4
+528,112818,4,100181,"SMD/THT thyristors",0
+291,112819,4,100181,"Stud mounting thyristors",0
+350,112820,4,100181,"Button thyristors",0
+1151,112821,4,100181,"Thyristors - others",0
+990,112822,3,19,"Thyristor modules",2
+639,112823,4,112822,"Thyristor modules",0
+351,112824,4,112822,"Diode - thyristor modules",0
+1006,100125,2,112140,Triacs,0
+26,100182,2,112140,Diacs,0
+19052,112825,2,112140,Transistors,4
+12477,17,3,112825,"Unipolar transistors",4
+9497,100309,4,17,"N channel transistors",2
+5484,112826,5,100309,"SMD N channel transistors",0
+4013,112827,5,100309,"THT N channel transistors",0
+1703,100592,4,17,"P channel transistors",2
+1511,112828,5,100592,"SMD P channel transistors",0
+192,112829,5,100592,"THT P channel transistors",0
+722,100615,4,17,"Multi channel transistors",0
+555,113458,4,17,"Transistor modules MOSFET",0
+4657,112830,3,112825,"Bipolar transistors",3
+4124,112831,4,112830,"Single bipolar transistors",4
+1259,112832,5,112831,"PNP SMD transistors",0
+369,100591,5,112831,"PNP THT transistors",0
+1716,112833,5,112831,"NPN SMD transistors",0
+780,100180,5,112831,"NPN THT transistors",0
+209,113448,4,112830,"Complementary transistors",0
+324,112834,4,112830,"Darlington transistors",4
+26,112835,5,112834,"PNP SMD Darlington transistors",0
+90,112836,5,112834,"PNP THT Darlington transistors",0
+57,112837,5,112834,"NPN SMD Darlington transistors",0
+151,112838,5,112834,"NPN THT Darlington transistors",0
+1913,112839,3,112825,"IGBT transistors and modules",2
+906,112840,4,112839,"IGBT transistors",2
+172,112841,5,112840,"SMD IGBT transistors",0
+734,112842,5,112840,"THT IGBT transistors",0
+1007,100311,4,112839,"IGBT modules",0
+5,100594,3,112825,"Unijunction transistors",0
+64889,100283,2,112140,"Integrated circuits",9
+15738,100421,3,100283,"Analog and mixed integrated circuits",14
+521,100622,4,100421,"Digital potentiometers",0
+285,100223,4,100421,"Temperature transducers",0
+4540,100216,4,100421,"Operational amplifiers",2
+4065,112843,5,100216,"SMD operational amplifiers",0
+475,112844,5,100216,"THT operational amplifiers",0
+741,112845,4,100421,Comparators,2
+660,100217,5,112845,"SMD comparators",0
+81,112846,5,112845,"THT comparators",0
+57,100579,4,100421,"U/I, U/f, U/U converters",0
+509,100221,4,100421,"Drivers - integrated circuits",0
+443,112847,4,100421,"Motor and PWM drivers",0
+690,112848,4,100421,"LED drivers",0
+1055,112849,4,100421,"MOSFET/IGBT drivers",0
+190,100621,4,100421,"Filters - integrated circuits",0
+4130,112850,4,100421,"Interfaces - integrated circuits",6
+8,112851,5,112850,"I2C interfaces - integrated circuits",0
+166,112852,5,112850,"USB interfaces - integrated circuits",0
+203,112853,5,112850,"CAN interfaces -  integrated circuits",0
+1578,112854,5,112850,"RS232/422/485 interfaces - integr. circ.",0
+596,112855,5,112850,"ETHERNET interfaces -integrated circuits",0
+1579,112856,5,112850,"Interfaces others - integrated circuits",0
+748,113433,4,100421,"Power switches - integrated circuits",0
+1321,112877,4,100284,"A/D converters - integrated circuits",0
+508,112878,4,100284,"D/A converters - integrated circuits",0
+8366,112857,3,100283,"Logic integrated circuits",13
+1804,113421,4,112857,"Buffers, transceivers, drivers",0
+26,113422,4,112857,Comparators,0
+299,113423,4,112857,Counters/dividers,0
+717,113424,4,112857,"Decoders, multiplexers, switches",0
+6,114028,4,112857,"FIFOs memory",0
+669,113426,4,112857,Flip-Flops,0
+2652,113427,4,112857,"Gates, inverters",0
+345,113428,4,112857,Latches,0
+388,113429,4,112857,"Level translators",0
+92,113430,4,112857,Multivibrators,0
+305,113431,4,112857,"Shift registers",0
+81,113432,4,112857,"Other logic integrated circuits",0
+982,113417,4,112857,"Programmable circuits",0
+16034,100590,3,100283,"Microcontrollers and Microprocessors",7
+11443,112859,4,100590,"Microchip Microcontrollers",8
+148,113636,5,112859,"8-bit 8051 family",0
+1531,113637,5,112859,"8-bit AVR family",0
+3798,100314,5,112859,"8-bit PIC family",0
+1210,112860,5,112859,"16-bit PIC family",0
+2067,113638,5,112859,"16-bit dsPIC family",0
+137,113639,5,112859,"32-bit AVR32 family",0
+1657,112861,5,112859,"32-bit PIC32 family",0
+895,113640,5,112859,"32-bit ARM family",0
+103,113781,4,100590,"Microchip Microprocessors",0
+303,113634,4,100590,"Infineon Technologies microcontrollers",0
+1367,112865,4,100590,"NXP microcontrollers",1
+1367,100588,5,112865,"ARM NXP microcontrollers",0
+1036,113635,4,100590,"Texas Instruments microcontrollers",0
+1263,112866,4,100590,"ST microcontrollers",0
+519,100585,4,100590,"Microcontrollers - others",0
+5830,100286,3,100283,"Memories - integrated circuits",7
+1282,112867,4,100286,"SRAM memories - integrated circuits",2
+45,112868,5,112867,"Serial SRAM memories - integrated circ.",0
+1237,100282,5,112867,"Parallel SRAM memories - integ. circ.",0
+925,112869,4,100286,"DRAM memories - integrated circuits",0
+37,100279,4,100286,"EPROM memories - integrated circuits",0
+1650,112870,4,100286,"EEPROM memories - integrated circuits",2
+1601,100280,5,112870,"Serial EEPROM memories - integ. circ.",0
+49,112871,5,112870,"Parallel EEPROM memories - integ. circ.",0
+1744,112872,4,100286,"FLASH memories - integrated circuits",2
+1228,112873,5,112872,"Serial FLASH memories - integrated circ.",0
+516,100278,5,112872,"Parallel FLASH memories - integ. circ.",0
+90,100424,4,100286,"FRAM memories - integrated circuits",0
+102,112874,4,100286,"Memories others - integrated circuits",0
+4127,100284,3,100283,"Peripheral integrated circuits",7
+1337,112875,4,100284,"Watchdog and reset circuits",0
+42,113598,4,100284,"Authentification integrated circuits",0
+91,112876,4,100284,"Supervisor circuits",0
+215,100435,4,100284,"RTC circuits",0
+1321,112877,4,100284,"A/D converters - integrated circuits",0
+508,112878,4,100284,"D/A converters - integrated circuits",0
+613,100222,4,100284,"Analog multiplexers and switches",0
+15463,112879,3,100283,"Voltage regulators - integrated circuits",4
+8071,100581,4,112879,"Linear regulators - integrated circuits",4
+630,100215,5,100581,"Unregulated voltage regulators",0
+6550,112880,5,100581,"LDO unregulated voltage regulators",0
+137,100582,5,100581,"Regulated voltage regulators",0
+754,112881,5,100581,"LDO regulated voltage regulators",0
+5639,112882,4,112879,"Switched regulators - integrated circ.",2
+4607,100220,5,112882,"Voltage regulators - DC/DC circuits",0
+1032,112883,5,112882,"Voltage regulators - PWM circuits",0
+1074,100218,4,112879,"Reference voltage sources - circuits",0
+679,112884,4,112879,"Battery and battery cells controllers",0
+609,100219,3,100283,"RTV - audio integrated circuits",0
+10,100214,3,100283,"Hybrid integrated circuits",0
+541,112885,3,100283,"Integrated circuits - others",0
+4566,21,2,112140,"Semiconductors - accessories",7
+28,100142,3,21,"Standard DIP sockets",0
+20,100144,3,21,"PLCC sockets",0
+49,100143,3,21,"Precision sockets",0
+15,100145,3,21,"Test sockets",0
+4048,100095,3,21,Heatsinks,0
+364,100096,3,21,"Heatsinks - equipment",0
+42,112888,3,21,"Peltier modules",0
+240,112889,2,112140,"Programmers and erasers",3
+145,112890,3,112889,Programmers,0
+4,112891,3,112889,"UV erasers",0
+91,113757,3,112889,"Programmer accessories",0
+4092,100636,2,112140,"Development kits",10
+493,112892,3,100636,"Microchip development kits",0
+42,112894,3,100636,"NXP development kits",0
+323,113434,3,100636,"STM development kits",0
+36,113435,3,100636,"TI development kits",0
+146,113240,3,100636,"Development Boards for Arduino",2
+95,118087,4,113240,"Arduino Solutions",0
+51,118088,4,113240,"Solutions Compatible with Arduino",0
+387,113718,3,100636,"Development kits for data transmission",0
+546,112895,3,100636,"Development kits - others",0
+1625,113614,3,100636,"Add-on boards",0
+478,113610,3,100636,"Development kits - accessories",0
+16,113191,3,100636,Compilers,0
+2140,113192,2,112140,"Communication modules",13
+79,113719,3,113192,"USB modules",0
+42,113720,3,113192,"Ethernet modules",0
+324,113721,3,113192,"RFID modules and readers",0
+376,113194,3,113192,"RF modules",0
+208,113195,3,113192,"M2M (GPRS/HSPA/LTE) modules",0
+295,113196,3,113192,"IoT (WiFi/Bluetooth) modules",0
+140,113723,3,113192,"GNSS (GPS) modules",0
+3,113198,3,113192,"Communication modules - others",0
+54,113594,3,113192,"Accessories for Communication Modules",0
+134,113384,3,113383,"WiFi/Bluetooth antennas",0
+101,113385,3,113383,"GPS antennas",0
+230,113386,3,113383,"GSM antennas",0
+154,113387,3,113383,"RF antennas",0
+39,113784,2,112140,Obsolete,0
+3539,113611,1,111000,"Embedded and IoT systems",7
+2140,113192,2,112140,"Communication modules",13
+79,113719,3,113192,"USB modules",0
+42,113720,3,113192,"Ethernet modules",0
+324,113721,3,113192,"RFID modules and readers",0
+376,113194,3,113192,"RF modules",0
+208,113195,3,113192,"M2M (GPRS/HSPA/LTE) modules",0
+295,113196,3,113192,"IoT (WiFi/Bluetooth) modules",0
+140,113723,3,113192,"GNSS (GPS) modules",0
+3,113198,3,113192,"Communication modules - others",0
+54,113594,3,113192,"Accessories for Communication Modules",0
+134,113384,3,113383,"WiFi/Bluetooth antennas",0
+101,113385,3,113383,"GPS antennas",0
+230,113386,3,113383,"GSM antennas",0
+154,113387,3,113383,"RF antennas",0
+292,113612,2,113611,"Single board computers",0
+68,113613,2,113611,"Accessories for Embedded systems",0
+178,113542,2,100431,"Enclosure for Embedded Systems",0
+76,118182,2,113643,"Memory Modules",0
+146,113240,3,100636,"Development Boards for Arduino",2
+95,118087,4,113240,"Arduino Solutions",0
+51,118088,4,113240,"Solutions Compatible with Arduino",0
+639,113439,3,112917,"Intelligent displays modules",0
+24792,100327,1,111000,Optoelectronics,7
+12113,100684,2,100327,LEDs,9
+4407,100134,3,100684,"THT LEDs",8
+143,100324,3,100693,Holders,0
+389,113346,3,100693,"Spacers for LED",0
+3174,112896,4,100134,"THT LEDs Round",0
+146,112902,4,100134,"THT LEDs oval",0
+291,112903,4,100134,"THT LEDs rectangle",0
+111,112904,4,100134,"THT LEDs Super Flux",0
+43,112905,4,100134,Backlights,0
+110,112906,4,100134,"THT LEDs - others",0
+3249,100404,3,100684,"SMD LEDs",3
+421,100692,3,100693,"Lightpipes for LED",0
+499,113362,4,100404,"SMD white LEDs",0
+2329,113363,4,100404,"SMD colour LEDs",0
+1042,100470,3,100684,"Power LEDs",3
+369,100691,3,100693,Lens,0
+487,113364,4,100470,"White power LEDs",2
+365,113365,5,113364,"White power LEDs - COB",0
+122,113366,5,113364,"White power LEDs - Emiter",0
+186,113367,4,100470,"Colour power LEDs",1
+186,113369,5,113367,"Colour power LEDs - Emiter",0
+289,113470,3,100684,"Special effect LED's",0
+431,100425,3,100684,"IR LEDs",0
+232,113370,3,100684,"UV LEDs",0
+38,113461,3,100684,"Plants growth LED",0
+105,118173,3,100684,"LED Kits",0
+2320,113579,3,100684,"LED light sources",4
+1227,113347,2,100336,"Profiles for LED",0
+821,113576,4,113579,"Light sources - LED ribbon",0
+97,113577,4,113579,"Light sources - LED bars",0
+175,113578,4,113579,"Light sources - LED modules",0
+2128,113582,2,100327,"LED indicators",2
+501,113583,3,113582,"LED PCB indicators",0
+1627,100325,3,93,"LED Panel Mount Indicators",0
+4673,112917,2,100327,Displays,9
+1332,100135,3,112917,"LED displays",3
+1076,112918,4,100135,"7-segment LED displays",0
+173,112922,4,100135,"LED displays - matrix",0
+83,112923,4,100135,"LED displays - others",0
+376,112924,3,112917,"OLED displays",2
+94,112925,4,112924,"Alphanumeric OLED displays",0
+282,112280,4,112924,"Graphical OLED displays",0
+890,100136,3,112917,"LCD displays",3
+81,112281,4,100136,"LCD digital displays",0
+470,112282,4,100136,"LCD alphanumeric displays",0
+339,112283,4,100136,"LCD graphic displays",0
+1027,112284,3,112917,"TFT displays",0
+29,113463,3,112917,"VFD displays",0
+639,113439,3,112917,"Intelligent displays modules",0
+41,113459,3,112917,E-paper,0
+225,113460,3,112917,"Displays - accessories",0
+114,113667,3,100228,"HMI Panels",0
+2153,112291,2,100327,Optocouplers,4
+1344,100138,3,112291,"Optocouplers - analog output",0
+424,112294,3,112291,"Optocouplers - digital output",0
+96,112297,3,112291,"Optocouplers - others",0
+289,113580,3,112291,Optotriacs,0
+165,100422,2,100327,"Laser elements",2
+86,112302,3,100422,"Laser diodes",0
+79,112303,3,100422,"Laser modules",0
+580,100140,2,100327,Photoelements,4
+143,112304,3,100140,Photodiodes,0
+193,112305,3,100140,"IR receiver modules",0
+190,112306,3,100140,Phototransistors,0
+54,100141,3,100140,Photoresistors,0
+5529,100693,2,100327,"LEDs accessories",9
+1227,113347,2,100336,"Profiles for LED",0
+143,100324,3,100693,Holders,0
+421,100692,3,100693,"Lightpipes for LED",0
+369,100691,3,100693,Lens,0
+164,113176,3,100693,"Heatsinks for LED",0
+389,113346,3,100693,"Spacers for LED",0
+89,112308,3,100693,"Others LEDs Accessories",0
+65,113414,3,113415,"Cooling Modules",0
+2662,113653,3,112530,"LED Power Supplies",0
+2874,113567,1,111000,"Light sources",9
+988,113568,2,113567,"Miniature light sources",0
+355,113569,2,113567,"Light sources - lighting",0
+204,113654,2,113567,"Light sources - car lighting",0
+34,113570,2,113567,"Light sources - EL elements",0
+80,113574,2,113567,"Light sources - holders",0
+120,113575,2,113567,Torches,0
+821,113576,4,113579,"Light sources - LED ribbon",0
+97,113577,4,113579,"Light sources - LED bars",0
+175,113578,4,113579,"Light sources - LED modules",0
+119338,112309,1,111000,Passives,17
+39337,100299,2,112309,Resistors,7
+29805,100300,3,100299,"SMD resistors",0
+5604,112312,3,100299,"THT Resistors",0
+2903,100511,3,100299,"Power resistors",0
+168,100298,3,100299,"Other Resistors",0
+56,113148,3,100299,"Heating resistors",0
+641,112321,3,100299,"Resistor networks",0
+160,113512,3,113509,"Audio resistors",0
+955,112323,2,112309,"NTC thermistors",2
+643,100402,3,112323,"Measurement NTC thermistors",2
+254,113183,4,100402,"THT measurement NTC thermistors",0
+389,113184,4,100402,"SMD measurement NTC thermistors",0
+312,112324,3,112323,"Protection NTC thermistors",0
+2525,24,2,112309,Potentiometers,4
+1398,112325,3,24,Trimmers,3
+292,112326,4,112325,"SMD trimmers",2
+209,100561,5,112326,"Single turn SMD trimmers",0
+83,112327,5,112326,"Multiturn SMD trimmers",0
+1103,100015,4,112325,"THT trimmers",6
+751,100595,5,100015,"Single turn THT trimmers",0
+90,100017,5,100015,"19mm multiturn THT trimmers",0
+62,100129,5,100015,"1/4 inch multiturn THT trimmers",0
+6,113254,5,100015,"5/16 inch multiturn THT trimmers",0
+193,100016,5,100015,"3/8 inch multiturn THT trimmers",0
+1,113241,5,100015,"1/2 inch multiturn THT trimmers",0
+3,113242,4,112325,"Trimmer adjustment tools",0
+1082,112328,3,24,"Shaft potentiometers",2
+970,112329,4,112328,"Single turn shaft  potentiometers",4
+462,100562,5,112329,"Carbon single turn potentiometers",0
+202,112330,5,112329,"Cermet single turn potentiometers",0
+168,100535,5,112329,"Wire single turn potentiometers",0
+138,100018,5,112329,"Cond. plastic single turn potentiometers",0
+112,112331,4,112328,"Multiturn shaft  potentiometers",2
+12,112332,5,112331,"Cermet multiturn potentiometers",0
+100,100024,5,112331,"Wire multiturn potentiometers",0
+20,112333,3,24,"Slide potentiometers",0
+25,113595,3,113509,"Audio potentiometers",0
+119,113519,2,112309,Encoders,2
+4,113520,3,113519,"Absolute type encoders",0
+115,113521,3,113519,"Incremental type encoders",0
+707,112334,2,112309,Knobs,5
+605,100026,3,112334,"Knobs for shaft potentiometers",0
+31,112335,3,112334,"Precision knobs for shaft potentiometers",0
+33,112336,3,112334,"Knobs for trimmers",0
+23,113133,3,112334,"Knobs for slide potentiometers",0
+15,112337,3,112334,Scales,0
+53823,26,2,112309,Capacitors,14
+25772,100560,3,26,"MLCC capacitors",3
+25095,113537,4,100560,"MLCC SMD capacitors",0
+633,100568,4,100560,"MLCC THT capacitors",0
+44,100558,4,100560,"MLCC array capacitors",0
+917,100003,3,26,"Ceramic capacitors",1
+917,112339,4,100003,"THT ceramic capacitors",0
+13315,100556,3,26,"Electrolytic capacitors",5
+4080,112341,4,100556,"SMD electrolytic capacitors",0
+6793,112342,4,100556,"THT electrolytic capacitors",0
+1500,113265,4,100556,"SNAP-IN electrolytic capacitors",0
+402,114042,4,100556,"Screw terminal and others el. capacitors",0
+540,113764,4,113225,"SMD Hybrid Capacitors",0
+6406,112350,3,26,"Film Capacitors",2
+6320,100265,4,112350,"THT Film Capacitors",0
+86,112351,4,112350,"SMD Film Capacitors",0
+202,113466,3,26,"Paper capacitors",0
+380,100263,3,26,"Motor capacitors",0
+26,112353,3,26,"Lighting capacitors",0
+3371,113244,3,26,"Tantalum capacitors",3
+2066,113245,4,113244,"SMD tantalum capacitors",0
+263,113246,4,113244,"THT tantalum capacitors",0
+1042,113247,4,113244,"Polymer - tantalum capacitors",0
+11,100634,3,26,"SMD niobium capacitors",0
+382,100266,3,26,"SMD capacitors - others",0
+12,100339,3,26,Trimmers,0
+452,113190,3,26,Supercapacitors,0
+3537,113225,3,26,"Polymer and Hybrid Capacitors",5
+1042,113247,4,113244,"Polymer - tantalum capacitors",0
+1141,113762,4,113225,"SMD Polymer Capacitors",0
+355,113763,4,113225,"THT Polymer Capacitors",0
+540,113764,4,113225,"SMD Hybrid Capacitors",0
+459,118085,4,113225,"THT Hybrid Capacitors",0
+622,113511,3,113509,"Audio capacitors",2
+351,113514,4,113511,"Audio polypropylene capacitors",0
+271,113515,4,113511,"Audio electrolytic capacitors",1
+271,113516,5,113515,"THT audio electrolytic capacitors",0
+5,113189,2,112309,"HV generators",0
+2630,27,2,112309,"Quartz crystals and filters",4
+2155,100269,3,27,"Quartz crystals",2
+1956,112354,4,100269,"SMD quartz crystals",0
+199,112355,4,100269,"THT quartz crystals",0
+304,100272,3,27,"Quartz generators",2
+294,112356,4,100272,"SMD quartz generators",0
+10,112357,4,100272,"THT quartz generators",0
+169,100270,3,27,"Ceramic filters and resonators",2
+159,113181,4,100270,"SMD ceramic filters and resonators",0
+10,113182,4,100270,"THT ceramic filters and resonators",0
+2,100271,3,27,"SAW filters and resonators",0
+10182,100406,2,112309,Inductors,5
+132,112358,3,100406,"SMD coils",0
+3643,112359,3,100406,"SMD inductors",9
+1485,113523,4,112359,"SMD 0402 inductors",0
+454,113524,4,112359,"SMD 0603 inductors",0
+339,113525,4,112359,"SMD 0805 inductors",0
+223,113526,4,112359,"SMD 1008 inductors",0
+48,113527,4,112359,"SMD 1206 inductors",0
+384,113528,4,112359,"SMD 1210 inductors",0
+148,113529,4,112359,"SMD 1812 inductors",0
+11,113530,4,112359,"SMD 2220 inductors",0
+551,113536,4,112359,"SMD inductors - others",0
+3040,112360,3,100406,"SMD power inductors",0
+3330,112361,3,100406,"THT inductors",3
+1714,100345,4,112361,"Toroidal inductors",0
+430,100343,4,112361,"Axial inductors",0
+1186,100344,4,112361,"Vertical inductors",0
+37,113510,3,113509,"Audio coils",0
+3149,113557,2,112309,"EMI/EMC components",2
+2866,113550,3,113557,"EMI/EMC ferrites",6
+205,113552,4,113550,"Ferrites for cables",0
+17,113553,4,113550,"Ferrite - inductors",0
+2013,113554,4,113550,"Ferrite - beads",0
+471,113555,4,113550,"Ring ferrites",0
+141,113556,4,113550,"Ferrite sleeves",0
+19,118086,4,113550,"Ferrite plates",0
+283,113558,3,113557,"EMI/EMC sheets",0
+2134,100342,2,112309,"Suppression filters",4
+339,112930,3,100342,"SMD suppression filters",0
+216,112931,3,100342,"THT suppression filters",0
+1514,112932,3,100342,"Suppression filters - others",0
+65,113132,3,100342,"Three-phase filters",0
+619,113383,2,112309,Antennas,4
+134,113384,3,113383,"WiFi/Bluetooth antennas",0
+101,113385,3,113383,"GPS antennas",0
+230,113386,3,113383,"GSM antennas",0
+154,113387,3,113383,"RF antennas",0
+2395,29,2,112309,Varistors,3
+646,112933,3,29,"SMD varistors",0
+1705,100397,3,29,"THT varistors",0
+44,112934,3,29,"Block varistors",0
+180,100400,2,112309,"Surge arrestors",2
+82,112935,3,100400,"SMD surge arrestors",0
+98,112936,3,100400,"THT surge arrestors",0
+262,113142,2,112309,"Power factor correction",4
+229,113143,3,113142,Capacitors,0
+2,113999,3,113142,"Blocking reactors",0
+11,113145,3,113142,"Reactive power controllers",0
+20,113236,3,113142,"Capacitor switching contactors",0
+1159,113509,2,112309,"Audio components",6
+305,100207,2,63,Speakers,0
+37,113510,3,113509,"Audio coils",0
+622,113511,3,113509,"Audio capacitors",2
+351,113514,4,113511,"Audio polypropylene capacitors",0
+271,113515,4,113511,"Audio electrolytic capacitors",1
+271,113516,5,113515,"THT audio electrolytic capacitors",0
+25,113595,3,113509,"Audio potentiometers",0
+160,113512,3,113509,"Audio resistors",0
+10,113513,3,113509,"Audio crossovers",0
+1,113752,2,112309,"Passives - other",0
+76005,46,1,111000,Connectors,17
+12939,30,2,46,"Signal connectors",13
+1461,112937,3,30,"Pin headers",0
+145,100350,3,30,"CE100 connectors 2,54mm",0
+129,100351,3,30,"CE156 connectors 3,96mm",0
+436,100036,3,30,"DIN 41.612, DIN 41.617 connectors",0
+92,100352,3,30,"Dubox connectors 2,54mm",0
+1250,100639,3,30,"FFC/FPC connectors",7
+50,112938,4,100639,"Connectors FFC/FPC 2.54mm",0
+38,112939,4,100639,"Connectors FFC/FPC 1.25mm",0
+406,112940,4,100639,"Connectors FFC/FPC 1.00mm",0
+463,112941,4,100639,"Connectors FFC/FPC 0.5mm",0
+63,114044,4,100639,"Connectors FFC/FPC 0.3mm",0
+13,118178,4,100639,"Connectors FFC/FPC 0.2mm",0
+217,113269,4,100639,"FFC/FPC ribbon cables",0
+2237,112943,3,30,"IDC connectors",0
+351,100033,3,30,"Micro-Match connectors 1,27mm",0
+10,100642,3,30,"Mini-Clamp connectors 2mm",0
+66,100530,3,30,"MTA-100 connectors 2,54mm",0
+80,100638,3,30,"IDC picoflex connectors 1,27mm",0
+2186,100569,3,30,"Board-to-board connectors",0
+4496,112945,3,30,"Raster signal connectors",23
+146,112946,4,112945,"Raster signal connectors 1,00mm",0
+26,113398,4,112945,"Raster signal connectors 1,20mm",0
+669,112947,4,112945,"Raster signal connectors 1,25mm",0
+215,112948,4,112945,"Raster signal connectors 1,50mm",0
+742,112949,4,112945,"Raster signal connectors 2,00mm",0
+499,100490,4,112945,"Raster signal connectors 2,50mm",0
+561,100491,4,112945,"Raster signal connectors 2,54mm",0
+309,112950,4,112945,"Raster signal connectors 3,00mm",0
+23,113399,4,112945,"Raster signal connectors 3,68mm",0
+22,113400,4,112945,"Raster signal connectors 3,81mm",0
+241,100349,4,112945,"Raster signal connectors 3,96mm",0
+91,113401,4,112945,"Raster signal connectors 4,14mm",0
+454,112951,4,112945,"Raster signal connectors 4,20mm",0
+21,113218,4,112945,"Raster signal connectors 4,50mm",0
+9,113402,4,112945,"Raster signal connectors 5/7,5mm",0
+19,113344,4,112945,"Raster signal connectors 5,00mm",0
+21,113403,4,112945,"Raster signal connectors 5,03mm",0
+77,112952,4,112945,"Raster signal connectors 5,08mm",0
+90,113263,4,112945,"Raster signal connectors 5,70mm",0
+9,113404,4,112945,"Raster signal connectors 6,10mm",0
+197,113405,4,112945,"Raster signal connectors 6,35mm",0
+16,113389,4,112945,"Raster signal connectors 7,50mm",0
+39,113406,4,112945,"Raster signal connectors 10mm",0
+5634,31,2,46,"Data connectors",7
+3421,100038,3,31,"D-Sub connectors",5
+975,113791,4,100038,"D-Sub plugs and sockets",0
+1507,113792,4,100038,"Complete D-Sub plugs",0
+688,113793,4,100038,"D-Sub housings",0
+115,113794,4,100038,"D-Sub adaptors",0
+136,113795,4,100038,"D-Sub accessories",0
+87,113410,3,31,"MDR connectors",0
+686,100379,3,31,"USB & IEEE1394 connectors",0
+1101,112953,3,31,"RJ connectors",0
+170,100432,3,31,"Card connectors",0
+9,100037,3,31,"Centronics connectors",0
+160,113564,3,31,"Optical connectors",0
+2476,112955,2,46,"RF connectors",13
+24,113609,3,112955,"4.3-10 connectors",0
+664,100357,3,112955,"BNC connectors",0
+66,100362,3,112955,"UHF & Mini-UHF connectors",0
+221,100358,3,112955,"TNC connectors",0
+6,113538,3,112955,"C connectors",0
+270,100359,3,112955,"N connectors",0
+16,100360,3,112955,"FME connectors",0
+642,100361,3,112955,"SMA, SMB, SMC connectors",0
+181,100449,3,112955,"MCX, MMCX connectors",0
+11,113539,3,112955,"Micro connectors",0
+88,100363,3,112955,"F connectors",0
+231,112956,3,112955,"Coaxial connectors",0
+56,100365,3,112955,"RF adapters",0
+19500,33,2,46,"Industrial connectors",4
+13068,100366,3,33,"Industrial circular connectors",25
+104,112961,4,100366,"C16-1 EcoMate connectors",0
+67,113462,4,100366,"HARTING connectors",0
+191,113227,4,100366,"RT360 connectors",0
+20,112963,4,100366,"CM connectors",0
+151,112964,4,100366,"CPC connectors",0
+15,112965,4,100366,"CA connectors",0
+124,113388,4,100366,"7/8"" connectors",0
+30,113626,4,100366,"M5 connectors",0
+518,112966,4,100366,"M8 connectors",0
+264,113785,4,100366,"M9 connectors",0
+2108,112967,4,100366,"M12 connectors",4
+944,113505,5,112967,"M12 plugs and sockets",0
+1056,113506,5,112967,"M12 connectors with cable",0
+82,113507,5,112967,"M12 adapters",0
+26,113508,5,112967,"M12 connector accessories",0
+952,113411,4,100366,"M16 connectors",0
+9,118175,4,100366,"M18 Connectors",0
+562,113277,4,100366,"M23 connectors",0
+16,118176,4,100366,"M25 Connectors",0
+30,113615,4,100366,"M27 connectors",0
+96,112968,4,100366,"PT-451 connectors",0
+869,112969,4,100366,"PX connectors",0
+33,112971,4,100366,"UTG connectors",0
+186,113412,4,100366,"LEMO connectors",0
+5584,112972,4,100366,"WEIPU connectors",0
+133,113407,4,100366,"SWITCHCRAFT connectors",0
+50,113627,4,100366,"X-Lok connectors",0
+277,118165,4,100366,"Hirose connectors",0
+679,118177,4,100366,"Binder Connectors",0
+5438,112977,3,33,"Rectangular multipole connectors",4
+16,112982,4,112977,"G connectors",0
+30,112984,4,112977,"ST connectors",0
+28,113408,4,112977,"EDAC connectors",0
+5364,113616,4,112977,"HDC connectors",11
+339,113617,5,113616,"DEGSON Connectors",0
+540,113618,5,113616,"Amphenol connectors",0
+2215,113619,5,113616,"HARTING connectors",0
+231,113620,5,113616,"GWconnect connectors",0
+406,113621,5,113616,"ILME connectors",0
+1160,113622,5,113616,"LAPP connectors",0
+106,113780,5,113616,"Phoenix Contact Connectors",0
+201,113623,5,113616,"TE Connectivity connectors",0
+82,113624,5,113616,"Weidmuller connectors",0
+82,113739,5,113616,"Wieland connectors",0
+2,114070,5,113616,"HDC connectors - others",0
+267,112985,3,33,"Valve connectors",0
+727,112988,3,33,"Industrial connectors - others",0
+5112,118167,2,46,"Military connectors",4
+1837,118168,3,118167,"MIL-C-5015 connectors",0
+275,118169,3,118167,"VG95234 connectors",0
+1127,118170,3,118167,"D38999 Series I connectors",0
+1873,118171,3,118167,"D38999 Series III connectors",0
+1215,118172,2,46,"Automotive connectors",0
+8331,34,2,46,"Power connectors",6
+3047,100475,3,34,"AC supply connectors",4
+433,113600,4,100475,"Mains connectors",0
+363,113601,4,100475,"Industrial IEC 60309 connectors",0
+1870,113602,4,100475,"IEC 60320 connectors",0
+381,113603,4,100475,"AC connectors - others",0
+2006,113584,3,34,"Terminal blocks",5
+237,113585,4,113584,"Terminal blocks",0
+606,113586,4,113584,"PCB terminal blocks",0
+878,113587,4,113584,"Pluggable terminal blocks",0
+175,113588,4,113584,"Quick Splice",0
+110,113589,4,113584,"Terminal blocks - others",0
+1038,112990,3,34,"DC power connectors",0
+157,113409,3,34,"LED connectors",0
+44,113371,3,34,"Solar connectors",0
+2039,100042,3,34,"Rail mounted connectors",0
+1396,35,2,46,"Audio-video connectors",8
+402,112991,3,35,"XLR & mini XLR connectors",2
+371,100635,4,112991,"XLR connectors",0
+31,112992,4,112991,"Mini XLR connectors",0
+428,100374,3,35,"Jack connectors",0
+117,100375,3,35,"RCA  connectors",0
+217,112993,3,35,"DIN & mini DIN connectors",2
+189,100377,4,112993,"DIN connectors",0
+28,112994,4,112993,"Mini DIN connectors",0
+74,100376,3,35,"Loudspeaker connectors",0
+52,100378,3,35,"Microphone connectors",0
+55,100380,3,35,"EURO, HDMI connectors",0
+51,100383,3,35,"AV adapters",0
+3695,100467,2,46,"Push-on connectors and cable terminals",4
+1021,112995,3,100467,"Insulated terminals",0
+1568,100492,3,100467,"Non-insulated terminals",0
+617,100041,3,100467,"Bootlace ferrule and butt splice",0
+489,112996,3,100467,"Solder terminals PCB mount",0
+343,100184,2,46,"Other connectors",0
+869,113744,2,46,"Other connectors TE",0
+3092,113975,2,46,"Other connectors Harting",0
+1569,113760,2,46,"Other connectors Molex",0
+2183,118095,2,46,"Other Amphenol Connectors",0
+1462,118102,2,46,"Other Neutrik Connectors",0
+3385,118155,2,46,"Other Hirose Connectors",0
+2804,118164,2,46,"Other Binder Connectors",0
+26033,42,1,111000,"Fuses and Circuit Breakers",11
+1057,100131,2,42,"SMD Fuses",13
+10,113149,3,100131,"0402 SMD Fuses",1
+10,113150,4,113149,"0402 SMD Fuses - Ultra Fast",0
+49,112997,3,100131,"0603 SMD Fuses",1
+49,112998,4,112997,"0603 SMD Fuses - Ultra Fast",0
+6,112999,3,100131,"0805 SMD Fuses",1
+6,113000,4,112999,"0805 SMD Fuses - Ultra Fast",0
+178,113001,3,100131,"1206 SMD Fuses",3
+80,113151,4,113001,"1206 SMD Fuses - Fast",0
+36,113152,4,113001,"1206 SMD Fuses - Time-Lag",0
+62,113002,4,113001,"1206 SMD Fuses - Ultra Fast",0
+180,113003,3,100131,"2410 SMD Fuses",3
+47,113004,4,113003,"2410 SMD Fuses - Fast",0
+73,113005,4,113003,"2410 SMD Fuses - Time-Lag",0
+60,113135,4,113003,"SMD Fuses 2410 - Ultra Fast",0
+11,113153,3,100131,"MGA SMD Fuses",1
+11,113154,4,113153,"MGA SMD Fuses - Ultra Fast",0
+142,113006,3,100131,"OM SMD Fuses",2
+104,113155,4,113006,"OMF SMD Fuses - Fast",0
+38,113156,4,113006,"OMT SMD Fuses - Time-Lag",0
+173,113008,3,100131,"UM SMD Fuses",3
+44,113170,4,113008,"UMF SMD Fuses - Fast",0
+99,113009,4,113008,"UMT SMD Fuses - Time-Lag",0
+30,113157,4,113008,"UMZ SMD Fuses - Time-Lag",0
+48,113158,3,100131,"5x20mm SMD Fuses",1
+48,113159,4,113158,"5x20mm SMD Fuses - Time-Lag",0
+34,113010,3,100131,"SMD Fuses 8x4,5x4,5mm",1
+34,113011,4,113010,"SMD Fuses 8x4,5x4,5mm - Time-Lag",0
+17,113137,3,100131,"PICO SMD Fuses",2
+9,113138,4,113137,"PICO SMD Fuses - Time-Lag",0
+8,113139,4,113137,"PICO SMD Fuses - Ultra Fast",0
+76,113012,3,100131,"SMD Fuses with Holder",3
+39,113013,4,113012,"SMD Fuses with Holder - Ultra Fast",0
+6,113014,4,113012,"SMD Fuses with Holder - Fast",0
+31,113015,4,113012,"SMD Fuses with Holder - Time Lag",0
+133,113016,3,100131,"SMD Fuses - Others",0
+2990,113288,2,42,"Miniature Fuses",8
+128,113289,3,113288,"Fuses 5x15mm",2
+70,113290,4,113289,"Fuses 5x15mm - Fast",0
+58,113291,4,113289,"Fuses 5x15mm - Time-Lag",0
+1267,113292,3,113288,"Fuses 5x20mm",4
+444,113293,4,113292,"Fuses 5x20mm - Fast",0
+668,113294,4,113292,"Fuses 5x20mm - Time-Lag",0
+105,113295,4,113292,"Fuses 5x20mm - Medium Time-Lag",0
+50,113296,4,113292,"Fuses 5x20mm - Super Fast",0
+17,113297,3,113288,"Fuses 5x25mm",2
+10,113298,4,113297,"Fuses 5x25mm - Fast",0
+7,113299,4,113297,"Fuses 5x25mm - Medium Time-Lag",0
+696,113300,3,113288,"Fuses 6,3x32mm",3
+284,113301,4,113300,"Fuses 6,3x32mm - Fast",0
+336,113302,4,113300,"Fuses 6,3x32mm - Time-Lag",0
+76,113303,4,113300,"Fuses 6,3x32mm - Super Fast",0
+206,113304,3,113288,"Axial Fuses",3
+92,113305,4,113304,"Axial Fuses - Fast",0
+53,113306,4,113304,"Axial Fuses - Time-Lag",0
+61,113307,4,113304,"Axial Fuses - Super Fast",0
+471,113308,3,113288,"Fuses TR5",2
+245,113309,4,113308,"Fuses TR5 - Fast",0
+226,113310,4,113308,"Fuses TR5 - Time-Lag",0
+107,113311,3,113288,"Fuses TE5",0
+98,113312,3,113288,"Other Miniature Fuses",0
+815,113034,2,42,"Polymer PTC Fuses",2
+368,113035,3,113034,"SMD Polymer Fuses",0
+447,100132,3,113034,"THT Polymer Fuses",0
+352,100089,2,42,"Thermal Fuses",0
+1083,100198,2,42,"Automotive Fuses",5
+246,113036,3,100198,"Standard Automotive Fuses",0
+234,113037,3,100198,"Miniature Automotive Fuses",0
+56,113038,3,100198,"Car Fuses - Maxi",0
+532,113136,3,100198,"Other Car Fuses",0
+15,113239,3,100198,"Automotive fuses - Accessories",0
+3007,113213,2,42,"Industrial Fuses",8
+43,113313,3,113213,"Fuses 8x31mm",0
+512,113314,3,113213,"Fuses 10,3x38mm",3
+142,113315,4,113314,"Fuses 10,3x38mm - Fast",0
+267,113316,4,113314,"Fuses 10,3x38mm - Time-Lag",0
+103,113317,4,113314,"Fuses 10,3x38mm - Super Fast",0
+208,113318,3,113213,"Fuses 14x51mm",0
+165,113319,3,113213,"Fuses 22x58mm",0
+1616,113214,3,113213,"NH Fuses",0
+185,114011,3,113213,"D Fuses",0
+10,113215,3,113213,"High/Medium Voltage Fuses",0
+268,113216,3,113213,"Other Fuses",0
+8,113141,2,42,"Special Applications Fuses",0
+19,113039,2,42,"Fuses - Sets",0
+1763,100088,2,42,Fuseholders,5
+201,113040,3,100088,"Panel Mount Fuseholders",0
+229,113041,3,100088,"PCB Fuseholders",0
+48,113042,3,100088,"Fuseholders for Cable",0
+762,113043,3,100088,"DIN Rail Sockets",0
+523,113593,3,100088,"Car Fuseholders",0
+34,113320,2,42,"PTC Thermistors",0
+14905,113044,2,42,"Circuit Breakers",8
+268,113642,2,113643,"Socket Strips",0
+7053,100418,3,113044,"Circuit Breakers",0
+2817,113045,3,113044,"RCD Circuit Breakers",0
+851,100413,3,113044,"Motor Protection Breakers",0
+18,113518,3,113044,"Earth Leakage Relays",0
+687,113046,3,113044,"Surge Arresters",0
+2567,113047,3,113044,Disconnectors,0
+644,113264,3,113044,"Installation accessories",0
+26026,100232,1,111000,"Switches and Indicators",17
+6129,100060,2,100232,Microswitches,2
+2159,113048,3,100060,"Microswitches TACT",0
+3970,113049,3,100060,"Microswitches SNAP ACTION",0
+5975,100128,2,100232,"Panel Mount Switches",4
+228,113050,3,100128,"Panel Mount Switches, Standard 16mm",0
+2702,113051,3,100128,"Panel Mount Switches, Standard 22mm",0
+703,113052,3,100128,"Panel Mount Switches, Standard 30mm",0
+2342,113758,3,100128,"Panel Mount Accessories",0
+323,113686,2,100232,"Control Stations",0
+1576,100054,2,100232,"Rocker Switches",0
+709,100058,2,100232,Dip-Switches,0
+538,100057,2,100232,"Slide Switches",0
+258,113053,2,100232,"Rotary Switches",0
+1632,100056,2,100232,"Toggle Switches",0
+2557,100055,2,100232,"Push Button Switches",5
+1647,113675,3,100055,"Standard Switches",0
+255,113676,3,100055,"Keypad Switches",0
+123,113677,3,100055,"Door Switches",0
+13,113678,3,100055,"Push-Pull Switches",0
+519,113679,3,100055,"Detect Switches",0
+2976,113054,2,100232,"Vandal Resistant Switches",3
+2717,113674,3,113054,"Push Button Switches",0
+122,113680,3,113054,"Piezoelectric Switches",0
+137,113756,3,113054,"Capacitive switches",0
+516,113055,2,100232,"Cam Switches",0
+143,100233,2,100232,"Foot Switches",0
+31,100493,2,100232,Joysticks,0
+168,100062,2,100232,"Key Switches and Locks",0
+108,100234,2,100232,Keypads,3
+20,113681,3,100234,"Metal Keypads",0
+78,113682,3,100234,"Plastic Keypads",0
+10,113683,3,100234,"Membrane Keypads",0
+717,100059,2,100232,"Encoding Switches",0
+1670,93,2,100232,Indicators,2
+1627,100325,3,93,"LED Panel Mount Indicators",0
+43,112494,3,93,"Neon Indicators",0
+624,63,1,111000,"Sound Sources",3
+305,100207,2,63,Speakers,0
+21,100225,2,63,"Microphones and Headsets",0
+298,100208,2,63,Sounders,3
+130,112496,3,100208,"Electromagnetic Sounders",2
+49,112497,4,112496,"Electromagnetic Sounders with Generator",0
+81,112498,4,112496,"Electromagnetic Sounders w/o Generator",0
+143,112499,3,100208,"Piezoelectric signallers",2
+67,112500,4,112499,"Piezo Transducers with Generator",0
+76,112501,4,112499,"Piezo Transducers without Generator",0
+25,113633,3,100208,"Panel Sound Signalling Devices",0
+16985,112502,1,111000,"Relays and Contactors",2
+13224,40,2,112502,Relays,3
+6970,100593,3,40,"Electromagnetic Relays",7
+241,112503,4,100593,"Reed Electromagnetic Relays",0
+3013,112504,4,100593,"Miniature Electromagnetic Relays",0
+1163,100051,4,100593,"Industrial Electromagnetic Relays",0
+424,112505,4,100593,"Power Electromagnetic Relays",0
+140,112506,4,100593,"Automotive Electromagnetic Relays",0
+1229,112507,4,100593,"Electromagnetic Relays - Sets",0
+760,112508,4,100593,"Electromagnetic Relays - Accessories",0
+5613,112509,3,40,"Solid State Relays",3
+4168,100052,4,112509,"One Phase Solid State Relays",0
+921,112510,4,112509,"Three Phase Solid State Relays",0
+524,112511,4,112509,"DC Solid State Relays",0
+641,113134,3,40,"Installation Relays",0
+3761,100423,2,112502,Contactors,3
+2223,112512,3,100423,"Contactors - Main modules",0
+904,112513,3,100423,"Contactors - Accessories",0
+634,118116,3,100423,"Contactors -Installation Modular",0
+4887,100440,1,111000,"Transformers and Ferrite Cores",8
+1907,112514,2,100440,"PCB transformers",0
+1138,100531,2,100440,"Transformers with Fastening",0
+585,100028,2,100440,"Toroidal Transformers",0
+86,112515,2,100440,"Safety Transformers",0
+75,100408,2,100440,Autotransformers,0
+717,112516,2,100440,"Current Transformers",0
+190,112517,2,100440,"Ferrite Cores",0
+189,112518,2,100440,"Coil formers and accessories",0
+4303,41,1,111000,"Fans, Cooling and Heating Systems",14
+673,112519,2,41,"AC Fans",5
+466,112520,3,112519,"AC230V Fans",0
+1,112521,3,112519,"AC 230V/115V Fans",0
+133,112522,3,112519,"AC115V Fans",0
+38,113479,3,112519,"AC 400V Fans",0
+35,113480,3,112519,"AC 230V/400V Fans",0
+1850,100091,2,41,"DC Fans",5
+19,113203,3,100091,"Miniature Fans",0
+90,112523,3,100091,"DC5V Fans",0
+958,112524,3,100091,"DC12V Fans",0
+651,112525,3,100091,"DC24V Fans",0
+132,112526,3,100091,"DC48V Fans",0
+99,113467,2,41,"EC Fans",0
+281,113205,2,41,"Fans Accessories",4
+129,113206,3,113205,Guards,0
+86,113207,3,113205,"Filters and Inserts",0
+19,113208,3,113205,"Power Cables",0
+47,113209,3,113205,"Mounting Elements",0
+70,100092,2,41,"Fan Controls",3
+28,113248,3,100092,Controllers,0
+9,113249,3,100092,"Accesories for Controllers",0
+33,113666,4,112596,"AC Motor Controllers",0
+9,100093,2,41,"Heating Mats",0
+36,100094,2,41,"Temperature Indicators",0
+320,100694,2,41,"Heating Elements",0
+108,113278,2,41,"Air Conditioners",0
+60,113279,2,41,"Heat Exchangers",0
+229,113415,2,41,"LED Cooling",2
+164,113176,3,100693,"Heatsinks for LED",0
+65,113414,3,113415,"Cooling Modules",0
+434,113471,2,41,"Ventilation Systems for Cabinets",4
+167,113472,3,113471,"AC Fans",0
+37,113473,3,113471,"DC Fans",0
+89,113474,3,113471,Guards,0
+141,113475,3,113471,"Cabinets Accessories",0
+92,113531,2,41,"Fan Motors",4
+15,113532,3,113531,"AC Motors",0
+7,113533,3,113531,"EC Motors",0
+57,113534,3,113531,"Fan Impellers",0
+13,113535,3,113531,"Fan Motors Accessories",0
+42,112888,3,21,"Peltier modules",0
+33712,67,1,111000,"Power Sources",5
+2195,100199,2,67,"Batteries, Rechargeable Batteries",4
+754,100346,3,100199,Batteries,0
+354,100076,3,100199,"Rechargeable Batteries",0
+164,100247,3,100199,"Acid Cells",0
+923,100077,3,100199,"Batteries - Containers and Holders",0
+226,100647,2,67,Chargers,0
+9636,112530,2,67,"Power Supplies",10
+149,113646,2,113643,"Computer Power Supply Units and UPSs",0
+1728,113655,3,112530,"Open Frame Power Supplies",0
+2087,113656,3,112530,"Built-in Power Supplies",0
+1108,113652,3,112530,"Din Rail Mounting Power Supplies",0
+2662,113653,3,112530,"LED Power Supplies",0
+993,113628,3,112530,"Plug-in Power Supplies",0
+602,113629,3,112530,"Desktop Power Supplies",0
+139,113630,3,112530,"Laptop Power Supplies",0
+10,118094,3,112530,"PoE Power Supplies",0
+158,100646,3,112530,"Car Power Supplies and Converters",0
+21612,112532,2,67,Converters,2
+19959,100320,3,112532,"DC/DC Converters",0
+1653,100433,3,112532,"PCB AC/DC converters",0
+43,113581,2,67,"Photovoltaic Modules",0
+58879,112533,1,111000,"Wires and Cables",5
+20723,38,2,112533,Cables,20
+6278,112534,3,38,"Single Core Cables",2
+681,112535,4,112534,"Single Core Cable - Solid",0
+5597,100147,4,112534,"Single Core Cable - Strand",0
+448,100148,3,38,"Test Leads",0
+638,100555,3,38,"Power Cords",0
+1106,113171,3,38,"Data Transmission Cables",5
+322,113172,4,113171,"Telecommunication Cables",0
+282,113173,4,113171,"Industrial Ethernet Cables",0
+442,113174,4,113171,"Serial Bus Cables",0
+36,113175,4,113171,"Building Automation Bus Cables",0
+24,113740,4,113171,"Optical Fiber Cables",0
+5839,100574,3,38,"Multicore Cables",2
+2942,100156,4,100574,"Multicore Cables - Shielded",0
+2897,100152,4,100574,"Multicore Cables - Unshielded",0
+2297,113604,3,38,"Cables for Power Chains",2
+1394,113605,4,113604,"Cables for Power Chains - Shielded",0
+903,113606,4,113604,"Cables for Power Chains - Unshielded",0
+610,112538,3,38,"Silicone Cables",2
+405,100566,4,112538,"Silicone Cables - Single Core",0
+205,100567,4,112538,"Silicone Cables - Multicore",0
+625,100565,3,38,"Heat resistant cables",0
+123,118166,3,38,"Fire Performance Cables",0
+407,100596,3,38,"Car Instalation Cables",0
+157,100157,3,38,"Coaxial Cables",0
+346,113334,3,38,"Audio-Video Cables",5
+7,113335,4,113334,"Video Cables",0
+224,113336,4,113334,"Speaker Cables",0
+74,113337,4,113334,"Microphone Cables",0
+6,113338,4,113334,"Headphone Cables",0
+35,113339,4,113334,"Cables for LED and DMX Installations",0
+773,112539,3,38,"Ribbon Cables",3
+234,113262,3,100687,"Ribbon Cables with IDC Connectors",0
+387,100151,4,112539,"Ribbon Cables - Single Color",0
+152,100564,4,112539,"Ribbon Cables - Multicolor",0
+30,100149,3,38,"Telephone Cables",0
+522,100146,3,38,"Spiral Cables",0
+416,100610,3,38,"Coil Wires",0
+22,113597,3,38,"Resistance Wires",0
+44,100571,3,38,"Silver Plated Wires",0
+37,100575,3,38,"Copper Braids",0
+5,112540,3,38,"Cables - Others",0
+14174,100687,2,112533,"Cable Assemblies",13
+962,100685,3,100687,"HDMI, DVI, DisplayPort cables and adapt.",0
+1130,112541,3,100687,"USB cables and adapters",0
+3160,100688,3,100687,"RJ45 Cables",0
+775,113341,3,100687,"Fibre Optic Patchcords and Pigtails",0
+588,100328,3,100687,"Audio - Video Cables",0
+97,100382,3,100687,"Computer cables and adapters",0
+234,113262,3,100687,"Ribbon Cables with IDC Connectors",0
+3200,100329,3,100687,"Power Supply Cords",4
+1445,113200,4,100329,"Universal and Computer Power Cords",0
+860,113201,4,100329,"Extension Power Cords",0
+636,113235,4,100329,"DC Power Cords",0
+259,118135,4,100329,"Cables for Electric Cars",0
+94,100686,3,100687,"Monitor cables and adapters",0
+322,100331,3,100687,"Coaxial Assemblies",0
+50,100330,3,100687,"Telephone Cables Assemblies",0
+230,118156,3,100687,"Wire-To-Board Cable Assemblies",0
+3332,112583,3,100249,"Sensors - Cables",0
+4183,100072,2,112533,"Conduits and Insulating Sleeves",5
+159,113544,3,100072,"Wiring ducts",0
+264,113545,3,100072,"Polyester conduits",0
+531,113546,3,100072,"Electro Insulation tubes",0
+1318,113547,3,100072,"Protective tubes",0
+1911,113548,3,100072,"Conduits accessories",0
+17774,39,2,112533,"Cables - Accessories",7
+2705,112542,3,39,"Cable Ties and Holders",3
+1788,100068,4,112542,"Cable Ties",0
+584,113751,4,112542,"Cable Ties – Metal",0
+333,112543,4,112542,"Cable Ties - Holders",0
+447,100069,3,39,"Cable Holders",0
+742,113685,3,39,"Worm Gear Clamps and Fixing Clamps",0
+3033,100073,3,39,"Wire Markers",0
+8761,112544,3,39,"Glands and Grommets",6
+5492,100071,4,112544,Glands,0
+214,118103,4,112544,"Inserts for Glands",0
+759,113164,4,112544,"Reduction of Threads for Glands",0
+667,113165,4,112544,"Nuts for Glands",0
+913,118104,4,112544,Stoppers,0
+716,112545,4,112544,Grommets,0
+2067,100337,3,39,"Cable Chains",0
+19,113687,3,39,"Gel Cable Joints",0
+2259,113255,2,112533,"Heat Shrink Tubes",0
+40445,100336,1,111000,Mechanical,36
+5263,100316,2,100336,Bolts,0
+180,113391,2,100336,"Shoulder Screws",0
+3150,100616,2,100336,Screws,0
+666,100317,2,100336,Nuts,0
+231,112546,2,100336,"Threaded Insertions",0
+881,100318,2,100336,Washers,0
+455,100617,2,100336,Rivets,0
+204,113673,2,100336,"Fittings for ropes",0
+2132,100618,2,100336,"Safety Elements",6
+118,113256,3,100618,"Circlips for shafts",0
+659,113257,3,100618,"Safety pins",0
+68,113258,3,100618,"Parallel keys",0
+609,113259,3,100618,"Indexing plungers",0
+12,113271,3,100618,"Side Thrust Pins",0
+666,113331,3,100618,"Locking pins",0
+386,113743,2,100336,"Car Fasteners",0
+3606,100335,2,100336,"Metal Spacers",0
+3678,100334,2,100336,"Plastic Spacers",3
+985,112547,3,100334,"Plastic Standoffs",0
+2481,112548,3,100334,"Plastic Pegs",0
+212,118183,3,100334,"Insulating Spacer Sleeves",0
+366,112549,2,100336,Joints,0
+24,100474,2,100336,"PCB Brackets and Guides",0
+138,113565,2,100336,"Handwheels and pointers",0
+1226,113166,2,100336,Knobs,0
+468,113272,2,100336,"Accessories for Hydraulic Systems",3
+221,113273,3,113272,"Breather Caps and Plugs",0
+50,113274,3,113272,"Level Indicators",0
+197,118141,3,113272,"Connection Fittings",0
+1145,113167,2,100336,"Clamping Levers",0
+1243,113231,2,100336,"Locks and Clasps",3
+999,113392,3,113231,Latches,0
+43,113393,3,113231,"Clasps and Latches",0
+201,113394,3,113231,"Electromagnetic Locks",0
+425,113168,2,100336,Hinges,0
+83,113238,2,100336,"Caps Plugs and Masking",0
+2681,113169,2,100336,"Feet and Wheels",4
+853,113395,3,113169,Feet,0
+1393,113396,3,113169,Wheels,0
+406,113397,3,113169,Feet,0
+29,113566,3,113169,"Accesories for feet",0
+778,113232,2,100336,"Profiles and Holders",3
+41,113561,3,113232,"Aluminium Profiles",0
+66,113562,3,113232,"Holders for Sensors",0
+671,113563,3,113232,"Accessories for Profiles",0
+489,112550,2,100336,"Vibration Dampers",0
+1619,113476,2,100336,Bearings,2
+1015,113477,3,113476,"Plain Bearings",0
+604,113478,3,113476,"Roller Bearings",0
+1227,113347,2,100336,"Profiles for LED",0
+434,113372,2,100336,Handles,0
+311,113599,2,100336,"Sliding and Transport Systems",2
+292,113745,3,113599,"Linear Guides",0
+19,113746,3,113599,"Transport Systems",0
+2117,113322,2,100336,"Technical seals",1
+2117,113323,3,113322,Seals,0
+2803,113724,2,100336,"Mechanical Power Transmission",0
+156,113735,2,100336,"Support insulators",0
+611,113736,2,100336,"Engineering materials",2
+277,113737,3,113736,"Plastic rods",0
+334,113738,3,113736,"Plastic sheets",0
+70,113275,2,100336,"Toggle Clamps and Clamping Bolts",0
+742,113685,3,39,"Worm Gear Clamps and Fixing Clamps",0
+222,112555,3,112554,"Edge Protective Covers",0
+235,100480,3,100249,Magnets,0
+17178,100431,1,111000,Enclosures,17
+6548,100241,2,100431,"Multipurpose Enclosures",0
+397,100632,2,100431,"Modular Aparatus Enclosures",0
+552,100240,2,100431,"Remote Control Enclosures",0
+178,113542,2,100431,"Enclosure for Embedded Systems",0
+104,100630,2,100431,"Enclosures for Devices with Display",0
+163,112551,2,100431,"Enclosures for Alarms and Sensors",0
+108,100629,2,100431,"Enclosures for Potting",0
+75,100628,2,100431,"Power Supplies Enclosures",0
+1198,100625,2,100431,"Din Rail Mounting Enclosures/Accessories",2
+508,113590,3,100625,"Din Rail Mounting Enclosures",0
+690,113591,3,100625,"Din Rail Mounting Enclosures-Accessories",0
+752,100624,2,100431,"Wall Mounting Enclosures",0
+328,100626,2,100431,"Desktop Enclosures",0
+171,100101,2,100431,"Shielded enclosures",0
+1307,100623,2,100431,"Enclosures with Panel",0
+124,100631,2,100431,"19inch Enclosures",2
+98,112552,3,100631,"19inch Enclosures",0
+26,112553,3,100631,"19inch Enclosures - Accessories",0
+189,100242,2,100431,"Panel Mounting Enclosures",0
+836,113522,2,100431,"Junction boxes",0
+4148,112554,2,100431,"Enclosures - Accessories",7
+434,113372,2,100336,Handles,0
+406,113397,3,113169,Feet,0
+222,112555,3,112554,"Edge Protective Covers",0
+81,112557,3,112554,"Enclosures - Caps",0
+240,112558,3,112554,"Enclosures - Holders",0
+743,118134,3,112554,"Enclosures - Mounting Plates",0
+2022,112559,3,112554,"Enclosures - Other Accessories",0
+36857,100124,1,111000,Automation,4
+17176,100249,2,100124,"Sensors and Transducers",21
+4456,112560,3,100249,"Inductive Sensors",3
+4080,112561,4,112560,"Cylindrical Inductive Sensors",2
+171,112562,5,112561,"AC Cylindrical Inductive Sensors",0
+3909,100065,5,112561,"DC Cylindrical Inductive Sensors",0
+350,112563,4,112560,"Rectangle Inductive Sensors",0
+26,112564,4,112560,"Inductive Sensors - Accessories",0
+412,112565,3,100249,"Capacitive Sensors",0
+3362,112566,3,100249,"Photoelectric Sensors",4
+2799,100064,4,112566,"Standard Photoelectric Sensors",0
+177,112567,4,112566,"PCB Photoelectric Sensors",0
+87,112568,4,112566,"Photoelectric Sensors - Reflectors",0
+299,113725,4,112592,"Light Curtains",0
+92,113777,3,100249,"Measurement Sensors",0
+247,112569,3,100249,"Fiber-Optic Sensors",0
+37,112570,3,100249,"Toslink - Transmitters and Receivers",0
+487,112571,3,100249,"Temperature Sensors and Transducers",6
+49,112572,4,112571,"Temperature Sensors - NTC",0
+1,113657,4,112571,"Temperature Sensors - PTC",0
+267,112573,4,112571,"Temp. Sensors - Resistance Thermometers",0
+35,113658,4,112571,"Temperature Sensors - Thermocouples",0
+20,113659,4,112571,"Temperature Sensors - Accessories",0
+115,112574,4,112571,"Temperature Transducers",0
+362,100479,3,100249,Thermostats,0
+563,112575,3,100249,"Magnetic Sensors",3
+175,100478,4,112575,"Reed Sensors",0
+96,112576,4,112575,"Hall Sensors",0
+292,112577,4,112575,"Resistive Magnetic Sensors",0
+235,100480,3,100249,Magnets,0
+161,112578,3,100249,"Level Sensors",0
+161,112579,3,100249,"Flow Meters",0
+1729,112580,3,100249,"Pressure Sensors and Transducers",2
+1235,100524,4,112580,"Pressure Sensors",0
+494,112581,4,112580,"Pressure Transducers",0
+358,100438,3,100249,"Ultrasonic Sensors",0
+31,100439,3,100249,"Pressure Sensors",0
+67,113592,3,100249,"Tilt Sensors",0
+219,100525,3,100249,"Humidity Sensors",0
+333,100526,3,100249,"Gas Sensors",0
+349,112582,3,100249,Encoders,0
+183,113541,3,100249,"Measuring Conv. and Signal Isolators",0
+3332,112583,3,100249,"Sensors - Cables",0
+18756,100228,2,100124,"Regulation and Control",15
+895,112584,3,100228,Timers,3
+725,100053,4,112584,"Analogue Timers",0
+121,112585,4,112584,"Digital Timers",0
+49,112586,4,112584,"Timers - Accessories",0
+1099,113660,3,100228,"Monitoring Relays",0
+400,112587,3,100228,Counters,2
+143,112588,4,112587,"Hour Counters",0
+257,100122,4,112587,"Impulse Counters",0
+536,112589,3,100228,Regulators,1
+536,100121,4,112589,"Temperature Regulators",0
+42,112591,3,100228,Recorders,0
+2681,112592,3,100228,"Safety Switches",5
+1293,112593,4,112592,"Standard Safety Switches",0
+285,112594,4,112592,"Line Operated Safety Switches",0
+185,113276,4,112592,"Hinge Safety Switches",0
+619,112595,4,112592,"Safety Switches - Control Modules",0
+299,113725,4,112592,"Light Curtains",0
+3131,112596,3,100228,"Motor Control",9
+851,100413,3,113044,"Motor Protection Breakers",0
+239,112597,4,112596,"One Phase Inverters",0
+1069,100123,4,112596,"Three Phase Inverters",0
+448,113661,4,112596,"Soft Starters",0
+208,113662,4,112596,Starters,0
+244,113663,4,112596,"Servo Controllers",0
+33,113664,4,112596,"Stepper Motor Controllers",0
+6,113665,4,112596,"DC Motor Controllers",0
+33,113666,4,112596,"AC Motor Controllers",0
+247,112598,3,100228,"Programmable Relays",2
+136,112599,4,112598,"Programmable Relays - Base Modules",0
+111,112600,4,112598,"Programmable Relays - Accessories",0
+701,112601,3,100228,"PLC Drivers",0
+114,113667,3,100228,"HMI Panels",0
+2623,100235,3,100228,"Industrial Signalling Devices",4
+149,112602,4,100235,"Sound Signalling Devices",0
+610,112603,4,100235,"Light Signalling Devices",0
+464,112604,4,100235,"Light and Sound Signalling Devices",0
+1400,112605,4,100235,"Signalling Columns",0
+571,113668,3,100228,"Building Automation",0
+2175,100601,3,100228,"Industrial Networks",0
+3230,100405,3,100228,"Limit Switches",0
+311,100495,3,100228,"Pressure switches",0
+1198,100611,2,100124,"Electric Motors",0
+26,100637,2,100124,Solenoids,0
+9799,113280,1,111000,"Pneumatics and Hydraulics",2
+9199,118123,2,113280,Pneumatics,7
+772,118124,3,118123,Actuators,0
+894,118125,3,118123,"Valve and Manifolds",0
+3464,118126,3,118123,"Connectors and tubing",0
+356,118127,3,118123,"Air Equipment",0
+3,118128,3,118123,Instrumentation,0
+2076,118129,3,118123,"Vacuum Products",0
+1634,118130,3,118123,"Pneumatics accessories",0
+600,118131,2,113280,Hydraulics,2
+69,118132,3,118131,"Power Hydraulics",0
+531,118133,3,118131,"Industrial Armature",0
+80130,112607,1,111000,"Workplace Equipment",10
+14467,100164,2,112607,"Measuring Instruments",14
+22,112608,3,100164,"Analog Multimeters",0
+469,112609,3,100164,"Digital Multimeters",3
+405,112610,4,112609,"Portable digital multimeters",0
+50,112611,4,112609,"Benchtop digital multimeters",0
+14,112612,4,112609,"Multimeters - Sets",0
+745,112613,3,100164,"Meters - Accessories",5
+156,112614,4,112613,"Bags & Soft Cases",0
+5,112615,4,112613,"High Voltage Probes",0
+239,112616,4,112613,"Probes & accessories of temperatures",0
+45,112617,4,112613,"Meters - Software",0
+300,100158,4,112613,"Accessories - Others",0
+478,112618,3,100164,"Meters and Clamp Probes",3
+248,100160,4,112618,"Meters and AC Clamp Probes",0
+201,112619,4,112618,"Meters and AC/DC Clamp Probes",0
+29,112620,4,112618,"Clamp Meters - Others",0
+901,100460,3,100164,"Testers and Meters For El. Installations",10
+174,112621,4,100460,"Indicators, Voltage & Continuity Testers",0
+27,112622,4,100460,"Phase Sequence Indicators",0
+155,112623,4,100460,"Insulation Resistance Meters",0
+100,112624,4,100460,"Earth Resistance Meter",0
+6,112625,4,100460,"RCD Testers and Meters",0
+144,112626,4,100460,"Multimeters for Electrical Installations",0
+66,112627,4,100460,"Metals & cables detectors",0
+216,112628,4,100460,"Power Quality Analyzers",0
+11,112629,4,100460,"Voltage and Current Loggers",0
+2,113559,4,100460,"Energy Meters",0
+2286,100461,3,100164,"Meters of environmental conditions",13
+755,112630,4,100461,"Temperature and Humidity Meters",4
+525,112631,5,112630,"Temperature Meters",0
+103,112632,5,112630,Pirometers,0
+89,112633,5,112630,Thermohygrometers,0
+38,112634,5,112630,Hygrometers,0
+209,112635,4,100461,"Temperature and Humidity Loggers",0
+94,112636,4,100461,"Infrared Cameras",3
+27,100668,5,112636,"FLIR Infrared Cameras",0
+29,100541,5,112636,"Fluke Infrared Cameras",0
+38,113321,5,112636,"Infrared Cameras - Others",0
+78,112637,4,100461,"Gas Meters and Loggers",0
+688,112638,4,100461,"Manometers and Pressure Meters",0
+29,112639,4,100461,"pH Meters and Testers",0
+74,112640,4,100461,"Anemometers and Thermoanemometers",0
+61,112641,4,100461,Luxmeters,0
+42,112642,4,100461,"Sound Meters",0
+33,112643,4,100461,"Distance Meters",0
+28,112644,4,100461,Tachometers,0
+19,113481,4,100461,Vibrometers,0
+176,112645,4,100461,"Meters of Env. Conditions - Others",0
+78,113632,3,100164,"Inspection Cameras, Boroscopes",0
+14,112646,3,100164,"Automotive meters",2
+10,112647,4,112646,"Car Multimeters",0
+4,112649,4,112646,"Car Multimeters - Others",0
+6342,112650,3,100164,"Panel Meters",3
+2063,112651,4,112650,"Analog Panel Meters",4
+1210,118081,5,112651,Ammeters,0
+421,118082,5,112651,Voltmeters,0
+372,118083,5,112651,"Power Meters",0
+60,118084,5,112651,"Analog Panel Meters - Others",0
+1489,100163,4,112650,"Digital Panel Meters",5
+172,118089,5,100163,Ammeters,0
+267,118090,5,100163,Voltmeters,0
+290,118091,5,100163,"Power Network Meters and Analyzers",0
+277,118092,5,100163,"Energy Meters",0
+483,118093,5,100163,"Digital Panel Meters - Others",0
+2790,112652,4,112650,"Panel Meters - Accessories",6
+210,118106,5,112652,Shunts,0
+2295,118107,5,112652,"Current Transformers",0
+184,118108,5,112652,Scales,0
+44,118109,5,112652,"Rogowski Coils",0
+27,118110,5,112652,"Extension modules",0
+30,118111,5,112652,"Panel Meters - Accessories - Others",0
+731,100277,3,100164,"Laboratory instruments",12
+65,112653,4,100277,"LCR Meter",0
+146,112654,4,100277,"Generators and Frequency Meters",0
+6,118117,4,100277,"Logic Analyzers and Testers",0
+64,112655,4,100277,"Spectrum Analyzers",0
+27,112656,4,100277,Miliohmmeters,0
+48,112657,4,100277,Decades,0
+82,112658,4,100277,Calibrators,0
+61,112659,4,100277,"Calibrators - Accessories",0
+12,118118,4,100277,"Source Measure Units",0
+61,113416,4,100277,"Data Acquisition Systems",0
+130,113778,4,100277,"Electronic Loads",0
+29,118115,4,100277,"Electrical Safety Testers",0
+148,112660,3,100164,"Laboratory instruments - Others",0
+710,100165,3,100164,"Laboratory Power Supplies",3
+124,112661,4,100165,"One Channel Power Supplies",0
+62,112662,4,100165,"Multichannel Power Supplies",0
+524,112663,4,100165,"Programmable Power Supplies",0
+1277,100276,3,100164,"Oscilloscopes and Scopemeters",5
+1,112664,4,100276,"Analog Oscilloscopes",0
+312,112665,4,100276,"Digital Oscilloscopes",0
+82,112666,4,100276,"Portable Oscilloscopes, Scopemeters",0
+114,112667,4,100276,"PC connected oscilloscopes",0
+768,112668,4,100276,"Oscilloscopes and Scopemeters - Acc.",2
+466,118113,5,112668,"Probes for Oscilloscopes and Scopometers",0
+302,118114,5,112668,"Accessories for Oscilloscopes - Others",0
+266,100514,3,100164,"LAN and Telephone Networks Testers",0
+10503,100452,2,112607,"Measuring Accessories",11
+4302,112671,3,100452,"Test Leads",3
+4005,100451,4,112671,"Single Test Leads",0
+174,112672,4,112671,"Test Leads - Sets",0
+123,112673,4,112671,"Test Leads - Sets with Accessories",0
+281,100371,3,100452,"Probes - Test Plugs",0
+197,100048,3,100452,"Test hooks",0
+29,112674,3,100452,"Test Clips",0
+462,100045,3,100452,"Crocodile Clips",3
+153,112675,4,100045,"4mm Crocodile Clips",0
+23,112676,4,100045,"2mm Crocodile Clips",0
+286,112677,4,100045,"Crocodile Clips - Others",0
+1262,112678,3,100452,"Banana & Fork Plugs",3
+984,100046,4,112678,"4mm Banana Plugs",0
+204,112679,4,112678,"2mm Banana Plugs",0
+74,112680,4,112678,"Fork plugs",0
+1554,112681,3,100452,"Banana Sockets",2
+1293,100047,4,112681,"4mm Banana Sockets",0
+261,112682,4,112681,"2mm Banana Sockets",0
+140,113631,3,100452,"Laboratory Clamps",0
+24,112683,3,100452,"Hangers and uprights on wires",0
+1933,112684,3,100452,"Contact Probes",0
+319,113078,3,100452,"Laboratory Connectors - Others",0
+5573,100605,2,112607,"Soldering and Welding Equipment",15
+106,100177,3,100605,"Soldering irons and guns",0
+35,100105,3,100605,"Gas soldering irons & torches",0
+251,112685,3,100605,"Soldering & desoldering stations",5
+133,112686,4,112685,"Soldering stations",0
+19,112687,4,112685,"Desoldering stations",0
+34,112688,4,112685,"Soldering-desoldering stations",0
+46,112689,4,112685,"Hot-air stations",0
+19,118184,4,112685,"Service Stations",0
+770,100463,3,100605,"Soldering stations - accessories",4
+104,112690,4,100463,"Soldering iron stands & feeders",0
+62,112691,4,100463,"Sponges & tip cleaners",0
+522,100539,4,100463,"Soldering stations - accessories",0
+82,112692,4,100463,"Soldering accessories others",0
+2640,112693,3,100605,"Soldering tips & nozzles",3
+2247,100540,4,112693,"Soldering tips",0
+147,112694,4,112693,"Desoldering Tips",0
+246,112695,4,112693,"Hot-air nozzles",0
+142,100306,3,100605,"Soldering fume extraction systems",3
+32,118179,4,100306,"Fume Extractors",0
+36,118180,4,100306,"Fume Extractors - Filters",0
+74,118181,4,100306,"Fume Extractors – Accessories",0
+27,100178,3,100605,"Soldering pots & baths",0
+130,100395,3,100605,"Soldering Devices & Exposure Units",5
+8,112696,4,100395,"Exposure units",0
+20,118163,4,100395,Preheaters,0
+32,112697,4,100395,"Ultrasonic cleaners",0
+47,118157,4,100395,"Frames and PCB Holders",0
+23,112698,4,100395,"Soldering devices others",0
+134,100106,3,100605,"Auxiliary soldering tools",4
+15,112699,4,100106,"Pick & place tools",0
+3,112700,4,100106,"Component lead forming devices",0
+33,112701,4,100106,"Desoldering pumps",0
+83,100645,4,100106,"Various soldering tools",0
+53,100483,3,100605,"Desoldering wicks",0
+727,100305,3,100605,"Dispensers & accessories",5
+40,112702,4,100305,Dispensers,0
+159,112703,4,100305,"Barrels & cartridges",0
+60,112704,4,100305,"Dispensers - pen & bottles",0
+326,112705,4,100305,"Tips and nozzles",0
+142,112706,4,100305,"Various dispensing products",0
+449,112707,3,100605,Solders,2
+432,100482,4,112707,"Solders - wires",2
+90,113747,5,100482,"Solder wires - lead based",0
+342,113748,5,100482,"Solder wires - lead free",0
+17,112708,4,112707,"Solders - other",2
+5,113749,5,112708,"Solders - other: lead based",0
+12,113750,5,112708,"Solders - other: lead free",0
+32,100484,3,100605,Fluxes,0
+60,112710,3,100605,"Soldering chemicals",4
+6,118158,4,112710,"Cleaning Agents",0
+36,118159,4,112710,"High Temperature Resistant Tapes",0
+5,118160,4,112710,"Soldering Pens",0
+13,118162,4,112710,"Soldering Chemicals Others",0
+17,113348,3,100605,"Welding Equipment",2
+8,113356,4,113348,"Spare Parts and Accessories",3
+5,113357,5,113356,"Handles and Welding Cables",0
+1,113359,5,113356,"Nozzles and Sleeves",0
+2,114075,5,113356,"Other Parts",0
+9,113361,4,113348,"Masks and Protective Clothing",0
+693,112711,2,112607,"PCB prototyping & production",4
+223,112712,3,112711,"Copper laminates",2
+131,112713,4,112712,"One-layer laminates",0
+92,112714,4,112712,"Two-layers laminates",0
+256,100110,3,112711,"Universal PCBs",0
+205,100650,3,112711,"Assembly kits",0
+9,100196,3,112711,"Materials for PCB production",0
+1460,58,2,112607,"Chemical products",12
+12,100193,3,58,Glues,0
+25,100194,3,58,"Encapsulating materials",0
+45,100192,3,58,"Heat conductive compounds",0
+89,100111,3,58,"Marker pens, felt-tip pens, paints",0
+29,100347,3,58,"Protection & screen coatings",0
+75,100098,3,58,"Cleaning & maintaining products",0
+24,100191,3,58,Lubricants,0
+20,118112,3,58,"Compressed Air and Freezers",0
+5,113775,3,58,"Chemicals for Food Industry",0
+27,100099,3,58,"Wipes & cleaning clothes",0
+1101,112715,3,58,Tapes,8
+8,114058,4,112715,"Tapes Al & Cu",0
+434,113373,4,112715,"Electrotechnical tapes",3
+347,113374,5,113373,"Insulating tapes",0
+61,113375,5,113373,"Shielding and grounding tapes",0
+26,113376,5,113373,"Self-amalgamating tapes",0
+131,113377,4,112715,"Thermoconductive tapes",0
+378,113378,4,112715,"Fixing tapes",0
+110,113379,4,112715,"Repair tapes",0
+23,113380,4,112715,"Masking tapes",0
+1,113382,4,112715,"Other tapes",0
+16,118121,4,112715,"Accessories for tapes",0
+8,100100,3,58,"Chemicals others",0
+42314,100168,2,112607,Tools,24
+4384,112718,3,100168,"Screwdrivers, Ceramic Screwdrivers",4
+2964,112719,4,112718,Screwdrivers,0
+610,112720,4,112718,"Insulated Screwdrivers",0
+745,113765,4,112718,"Screwdrivers Sets",0
+65,112721,4,112718,"Ceramic Screwdrivers (Trimmers)",0
+3154,100117,3,100168,"Screwdriver Bits",0
+296,113761,3,100168,"Screwdriver Bits Sets",0
+10030,112722,3,100168,"Wrenches, Wrenches Sets",7
+2018,112723,4,112722,"Wrenches and Combination Wrenches",0
+1426,112724,4,112722,"Hex and Torx keys",0
+4689,113766,4,112722,"Socket Wrenches",0
+326,113767,4,112722,"Adjustable Wrenches",0
+400,113768,4,112722,"Torque Wrenches",0
+978,112725,4,112722,"Wrenches Sets",0
+193,112726,4,112722,"Wrenches - Others",0
+4288,100114,3,100168,"General Purpose Tools",5
+636,112727,4,100114,"Files, Scrapers",0
+410,112728,4,100114,"Saw and Hack Saw",0
+848,112729,4,100114,"Hammers and Axes",0
+733,113783,4,100114,"Vices and Clamps",0
+1661,112730,4,100114,"General Purpose Tools - Others",0
+3821,100113,3,100168,"Pliers, Shears, Knives",11
+941,112731,4,100113,"Cutting Pliers",0
+335,112732,4,100113,"Flat and Semicircular Pliers",0
+217,112733,4,100113,"Universal Pliers",0
+328,112734,4,100113,"Insulated Pliers",0
+213,113770,4,100113,"Adjustable Pliers",0
+304,113771,4,100113,"Ring Pliers",0
+128,113772,4,100113,"Locking Pliers",0
+183,112735,4,100113,"Special Pliers",0
+125,113773,4,100113,"Pliers Sets",0
+823,112736,4,100113,"Shears, Scissors, Knives",0
+224,113774,4,100113,"Wire Rope and Cable Cutters",0
+818,100436,3,100168,Tweezers,3
+253,112737,4,100436,"Universal Tweezers",0
+282,112738,4,100436,"Precision Tweezers",0
+283,112739,4,100436,"ESD Tweezers",0
+562,112740,3,100168,"Strippers for wire & cable",1
+562,100169,4,112740,"Strippers for wire & cable",0
+1820,100115,3,100168,"Crimping Tools",5
+546,112742,4,100115,"Crimping Tools for Terminals",0
+52,112743,4,100115,"Crimping Tools for Coaxial/RF Connectors",0
+77,112744,4,100115,"Crimping Tools for RJ Plugs",0
+650,112745,4,100115,"Crimping Tools - Others",0
+495,113769,4,100115,"Dedicated Crimping Tools",0
+239,113671,3,100168,"Tools and Acc. for Working at Height",0
+762,100387,3,100168,"Measuring Tools",0
+375,113669,3,100168,"Repair and Construction Tools",0
+103,100171,3,100168,"Inspection Tools",4
+30,112746,4,100171,"Magnifying Glasses",0
+16,112747,4,100171,"Desktop Magnifiers with Backlight",0
+29,112748,4,100171,Microscopes,0
+28,112749,4,100171,"Inspection Tools - Others",0
+103,114021,3,100168,"Industrial and Workshop Lighting",0
+683,112750,3,100168,"Tool Sets, Cases, Tool Bags",2
+313,112751,4,112750,"Tool Sets",0
+370,100118,4,112750,"Tool bags and cases",0
+72,113543,3,100168,"Handles, Stands",0
+220,100466,3,100168,"Glue Guns, Hot Air Guns",2
+148,112752,4,100466,"Glue Guns and Stick Adhesives Glues",0
+72,112753,4,100466,"Hot Air Guns and Accessories",0
+316,113796,3,100168,"Pneumatic Tools and Accessories",2
+222,113797,4,113796,"Pneumatic Tools",0
+94,113798,4,113796,"Accessories for Pneumatic Tools",0
+2084,100170,3,100168,"Power Tools & Accessories",4
+147,112754,4,100170,"Electric Power Tools",0
+54,112755,4,100170,"Cordless Power Tools",0
+1206,100116,4,100170,"Power Tools - Parts and Accessories",0
+677,113451,4,113449,"Cutting and Grinding Discs",0
+6513,113482,3,100168,Drills,5
+3366,113483,4,113482,"Drills for Metal",0
+1226,113484,4,113482,"Drills for Concrete",0
+467,113485,4,113482,"Drills for Wood",0
+1194,113486,4,113482,"Drills - Others",0
+260,113782,4,113482,"Drill Sets",0
+546,113487,3,100168,"Threading Dies and Taps",0
+189,113488,3,100168,Reamers,0
+1290,113449,3,100168,"Abrasive materials",4
+10,113450,4,113449,"Micro Abrasive Materials",0
+677,113451,4,113449,"Cutting and Grinding Discs",0
+556,113452,4,113449,"Abrasive Sheets and Discs",0
+47,114063,4,113449,"Abrasive Brushes and Sponges",0
+323,113734,3,100168,"Garden Tools",0
+1350,100174,2,112607,"Antistatic Protection",12
+649,100173,3,100174,"Static Protection-Personal",7
+29,112756,4,100173,"Antistatic Wirst Bands",0
+17,112757,4,100173,"Antistatic Shoes Grounders",0
+360,112758,4,100173,"ESD Clothing",2
+236,118075,5,112758,"Coats, Coveralls and Shirts",0
+124,118076,5,112758,"Protective Gloves and Thimbles",0
+141,112759,4,100173,"ESD Mats",3
+66,112760,5,112759,"ESD Bench Mats",0
+32,112761,5,112759,"ESD Floor Mats",0
+43,112762,5,112759,"ESD Workstations",0
+88,112763,4,100173,"ESD Accessories",0
+6,112764,4,100173,"ESD Inspection",0
+8,112765,4,100173,"Static Protection-Personal Others",0
+46,118119,3,100174,"ESD Chairs and Stools",0
+56,112766,3,100174,"ESD Boxes, Lockers",0
+29,118105,3,100174,"ESD Brushes",0
+10,112767,3,100174,"ESD Foams",0
+310,100175,3,100174,"ESD Bags and Foils",0
+3,118077,3,100174,"Antistatic Chemical Products",0
+26,118120,3,100174,"Humidity Indicators and Desiccants",0
+72,118078,3,100174,"ESD Office Supplies",0
+39,118079,3,100174,"Tapes and Labels",0
+42,118080,3,100174,Ionizers,0
+68,100172,3,100174,"Antistatic Protection Others",0
+189,118136,2,112607,Cleanroom,8
+59,118137,3,118136,Clothing,3
+6,118149,4,118137,Coats,0
+44,118150,4,118137,"Protective Gloves and Thimbles",0
+9,118151,4,118137,"Protection Personal - Others",0
+14,118152,3,118136,"Bags and Sacks",0
+34,118153,3,118136,Dispensers,0
+13,118138,3,118136,"Adhesive mats",0
+13,118139,3,118136,Chairs,0
+11,118154,3,118136,"Office Equipment",0
+23,118185,3,118136,"Wipes & Cleaning Clothes",0
+22,118140,3,118136,"Cleanroom - others",0
+1912,100456,2,112607,Storage,7
+126,100454,3,100456,"Containers and Boxes",0
+9,112768,3,100456,"Drawers and Sets",0
+168,100457,3,100456,Packing,0
+1144,100458,3,100456,"Printers and Markers",0
+176,100455,3,100456,"Warehouse Devices",0
+202,113786,4,100447,"Safety Signs",0
+87,113787,4,100447,"Warning and Marking Tapes",0
+1958,100446,2,112607,"Health and Safety",3
+289,100447,3,100446,"Warning and Informations",2
+202,113786,4,100447,"Safety Signs",0
+87,113787,4,100447,"Warning and Marking Tapes",0
+1474,100445,3,100446,"Personal Protection",7
+70,112770,4,100445,"Respiratory Protection",0
+62,113788,4,100445,"Head and Face Protection",0
+141,112771,4,100445,"Eye Protection",0
+45,113789,4,100445,"Hearing Protection",0
+283,112772,4,100445,"Hand Protection",0
+588,113790,4,100445,"Leg protection",0
+285,112773,4,100445,"Work and Protective Clothing",0
+195,112774,3,100446,"Health and Safety - Others",0
+342,118096,1,111000,"Office Equipment",4
+96,118097,2,118096,"Writing Accessories",0
+104,118098,2,118096,"Paper Supplies",0
+18,118100,2,118096,"Office Fans",0
+124,118099,2,118096,"Office Accessories",0
+6262,71,1,111000,"Car Audio",17
+2259,113255,2,112533,"Heat Shrink Tubes",0
+441,112775,2,71,"Car Antennas",5
+57,100542,3,112775,"GPS and GSM Car Antennas",0
+44,100553,3,112775,"CB Car Antennas",0
+3,112776,3,112775,"TV Car Antennas",0
+163,100238,3,112775,"Radio Car Antennas",0
+174,100204,3,112783,"Car antennas plugs and adapters",0
+230,112777,2,71,Adapters,5
+126,100202,3,112777,"Car Radio Adapters",0
+67,100573,3,112777,"Stalk Adapters",0
+7,100603,3,112777,"Car navigation adapters",0
+22,100203,3,112777,"Speaker Adapters",0
+8,100683,3,112777,"Active System Adapters",0
+119,113099,2,71,Interfaces,2
+6,100608,3,113099,"AUX Interfaces",0
+113,100510,3,113099,"Aux Adapters",0
+824,112781,2,71,"Car Speakers",5
+66,100126,3,112781,"Car Speakers",0
+218,100230,3,112781,"Plastic Mounting Accessories",0
+279,113177,3,112781,"MDF Mounting Accessories",0
+217,113202,3,112781,"Loudspeaker Enclosures",0
+44,113261,3,112781,"Acoustic Accessories",0
+1302,112782,2,71,Frames,1
+1302,100226,3,112782,"Facia Plates",0
+411,112783,2,71,Connectors,5
+88,100127,3,112783,"Connectors for panel car audio",0
+57,100459,3,112783,"Connectors for original car audio",0
+67,100532,3,112783,"Housings and terminals for car audio",0
+25,100205,3,112783,"ISO plugs and sockets",0
+174,100204,3,112783,"Car antennas plugs and adapters",0
+279,100602,2,71,"Car Power Accessories",0
+79,100414,2,71,"Frames and half frames for radio and CB",0
+184,100509,2,71,"Professional Car Audio Accessories",0
+33,100197,2,71,"Speakers Grilles, Front Panel Holders",0
+22,100415,2,71,"Radio-Panel Tapes",0
+24,100443,2,71,"Radio Release Keys",0
+17,100200,2,71,"CD Changer Cables",0
+13,112784,2,71,"Park sensors and driving recorders",0
+175,100527,2,71,"Hands free kit cables",0
+24,113741,2,71,"Car Holders",0
+1778,113643,1,111000,"Computer Accessories",11
+148,113644,2,113643,"Memory Cards",0
+169,113645,2,113643,Pendrives,0
+76,118182,2,113643,"Memory Modules",0
+149,113646,2,113643,"Computer Power Supply Units and UPSs",0
+333,113647,2,113643,Peripherals,0
+88,113648,2,113643,"Stands and Holders",0
+243,113649,2,113643,"HDD/SSD Accessories",0
+222,113650,2,113643,"Computer Adapters",0
+268,113642,2,113643,"Socket Strips",0
+60,113651,2,113643,"Computer Accessories - Others",0
+22,113742,2,113643,"Privacy Filters",0
+2962,113324,1,111000,"Robotics and Prototyping",10
+64,113325,2,113324,"Programmable Controllers",0
+662,113690,2,113324,"Sensor Modules",5
+214,113691,3,113690,"Environmental Sensors",0
+59,113692,3,113690,"Position Sensors",0
+184,113693,3,113690,"Distance Sensors",0
+186,113694,3,113690,"Other Sensors",0
+19,113695,3,113690,"Sets and Accessories",0
+62,113696,2,113324,"Audio-Video Modules",2
+51,113697,3,113696,"Audio Modules",0
+11,113698,3,113696,"Camera Modules",0
+431,113699,2,113324,"Other Modules",6
+20,113700,3,113699,"Connector Modules",0
+35,113701,3,113699,Converters,0
+23,113702,3,113699,"Relay Modules",0
+8,113703,3,113699,"RTC Modules",0
+41,113704,3,113699,Adapters,0
+304,113705,3,113699,"Other Modules",0
+173,113688,2,113324,"Power Supply Modules",3
+135,113706,3,113688,"Converter Modules",0
+23,113707,3,113688,"Charger Modules",0
+15,113708,3,113688,"Others Power Supply Modules",0
+208,113328,2,113324,"Motor Control Modules",0
+591,113689,2,113324,"Micromotors and Accessories",5
+393,113709,3,113689,"DC Motors",0
+1,113710,3,113689,"BLDC Motors",0
+23,113711,3,113689,"Stepper Motors",0
+105,113712,3,113689,"Servo Motors",0
+69,113713,3,113689,"Accessories for Micromotors",0
+238,113714,2,113324,"Robotics and RC",3
+9,113715,3,113714,Controllers,0
+88,113716,3,113714,"Frames and Chassis",0
+141,113717,3,113714,"Accessories for Robotics and RC",0
+517,113413,2,113324,"3D Printers and Accessories",0
+16,113776,2,113324,"Industrial Robotics",0
