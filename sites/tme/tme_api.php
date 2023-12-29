@@ -15,7 +15,7 @@ function api_call($action, array $params, $show_header = false)
     curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($params));
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, true);
-    curl_setopt($curl, CURLOPT_VERBOSE, 1);
+    // curl_setopt($curl, CURLOPT_VERBOSE, 1);
     curl_setopt($curl, CURLOPT_HEADER, 1);
 
     $response = curl_exec($curl);
@@ -23,10 +23,6 @@ function api_call($action, array $params, $show_header = false)
     $header_size = curl_getinfo($curl, CURLINFO_HEADER_SIZE);
     $header = substr($response, 0, $header_size);
     $body = substr($response, $header_size);
-
-    if ($show_header) {
-        print_r($header);
-    }
 
     curl_close($curl);
 
@@ -37,7 +33,7 @@ function getSignature($action, array $parameters, $appSecret)
 {
     $parameters = sortSignatureParams($parameters);
 
-    $queryString = http_build_query($parameters, null, '&', PHP_QUERY_RFC3986);
+    $queryString = http_build_query($parameters, PHP_QUERY_RFC3986);
     $signatureBase = strtoupper('POST') .
         '&' . rawurlencode(getUrl($action)) . '&' . rawurlencode($queryString);
 
