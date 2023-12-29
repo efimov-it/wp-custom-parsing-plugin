@@ -219,7 +219,7 @@ function rs_get_products ($categories) {
 
         foreach ($products -> data -> terminalNode -> resultsList -> records as $product) {
             $tmpProduct = [
-                $product -> id,
+                $product -> stockNumber,
                 '',
                 '',
                 '', // Producer
