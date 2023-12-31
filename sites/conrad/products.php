@@ -208,8 +208,8 @@
                             '',
                             $tmpPriceAndStok -> price -> vatPercentage,
                             'VAT',
-                            $tmpPriceAndStok -> price -> price,
                             '',
+                            ceil(floatval($tmpPriceAndStok -> price -> price)),
                             ''
                         ]);
                         

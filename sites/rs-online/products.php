@@ -218,11 +218,20 @@ function rs_get_products ($categories) {
         }
 
         foreach ($products -> data -> terminalNode -> resultsList -> records as $product) {
+
+            // Finding brand name
+            $brand = "";
+            foreach($product -> specificationAttributes as $param) {
+                if ($param -> key === "P_brand") {
+                    $brand = $param -> value;
+                }
+            }
+
             $tmpProduct = [
                 $product -> stockNumber,
                 '',
                 '',
-                '', // Producer
+                $brand,
                 $product -> name, // Description
                 $cat['id'],
                 $cat['name'],
@@ -300,7 +309,7 @@ function rs_get_products ($categories) {
                     $jsonStr = $matches[1];
                     $data = json_decode($jsonStr, true);
                     
-                    $tmpPrice[8] = $data['props']['pageProps']['articleResult']['data']['article']['prices']['priceBreaks'][0]['roundedVatIncPrice'];
+                    $tmpPrice[8] = ceil(floatval($data['props']['pageProps']['articleResult']['data']['article']['prices']['priceBreaks'][0]['roundedVatIncPrice']));
 
                     if (isset($data['props']['pageProps']['articleResult']['data']['article']['productAvailability']['productPageStockVolume'])) {
                         $tmpStok[2] = $data['props']['pageProps']['articleResult']['data']['article']['productAvailability']['productPageStockVolume'];

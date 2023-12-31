@@ -324,7 +324,7 @@ function TME_get_products ($symbols = []) {
                                     $product['VatType'],
                                     $product['Amount'],
                                     $price['Amount'],
-                                    $price['PriceValue'],
+                                    ceil(floatval($price['PriceValue'])),
                                     $price['Special']
                                 ]);
                             }

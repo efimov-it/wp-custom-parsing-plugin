@@ -89,7 +89,7 @@ function getElektraProducts ($products = []) {
                     '',
                     'ExVAT',
                     1,
-                    floatval($product -> price),
+                    ceil(floatval(floatval($product -> price))),
                     ''
                 ]);
                 
