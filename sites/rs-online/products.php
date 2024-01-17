@@ -38,10 +38,10 @@ function updateParametrsHeaders () {
     unset($csv_data);
     
     $wpai_uid_folders = [
-        'getStoks.csv'      => '449d1f78290ea1e7857f83e77ad51b87',
-        'getProducts.csv'   => '11bf768ffe1b7bf5a8ad21b052e9c220',
-        'getPrices.csv'     => 'fd479dff992b58bb4fd4f547769e079a',
-        'getParameters.csv' => 'bda6358112b894c2bdfb14ff1540eb8d'
+        'getStoks.csv'      => '7d75d0c30cd161fe5938a7bef4e20cbc',
+        'getProducts.csv'   => '121df5910752e2bbaa3e82211b932dd1',
+        'getPrices.csv'     => '345afd1cdc48d742e5cc0d83efe3dffe',
+        'getParameters.csv' => '96c45e9429be33582bc8f38bf5ebec28'
     ];
 
     importToWPAllImport($folder_path, 'rs', $wpai_uid_folders);

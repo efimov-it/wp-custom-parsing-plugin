@@ -100,8 +100,8 @@ curl_close($logOutQuery);
 unlink($tmpFileName);
 
 $wpai_uid_folders = [
-    'getPrices.csv'   => 'caba6b23f5723e00e01779735563e68d',
-    'getProducts.csv' => '9865c65c2493197f5c514ba235612739',
+    'getPrices.csv'   => '4b440347bfbd4d09a224085ef648f8e0',
+    'getProducts.csv' => '576414c82b5331d2c63cf687fe7842ec',
     'getStoks.csv'    => '274f461fb234fdd51e4811335b99bbb8'
 ];
 
