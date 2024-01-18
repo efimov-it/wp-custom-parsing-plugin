@@ -213,7 +213,7 @@ function rs_get_products ($categories) {
         $products = rs_api($query);
 
         if (!isset($products -> data)) {
-            echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o tovarah.\n";
+            // echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o tovarah.\n";
             return;
         }
 
@@ -249,7 +249,7 @@ function rs_get_products ($categories) {
             ];
 
             $tmpPrice = [
-                $product -> id,
+                $product -> stockNumber,
                 'EN',
                 'EUR',
                 'NET',
@@ -262,7 +262,7 @@ function rs_get_products ($categories) {
             ];
 
             $tmpStok = [
-                $product -> id,
+                $product -> stockNumber,
                 '',
                 0
             ];
@@ -309,14 +309,32 @@ function rs_get_products ($categories) {
                     $jsonStr = $matches[1];
                     $data = json_decode($jsonStr, true);
                     
-                    $tmpPrice[8] = ceil(floatval($data['props']['pageProps']['articleResult']['data']['article']['prices']['priceBreaks'][0]['roundedVatIncPrice']));
+                    $tmp = isset($data['props'])             ? $data['props']             : (object)[];
+                    $tmp = isset($tmp['pageProps'])          ? $tmp['pageProps']          : (object)[];
+                    $tmp = isset($tmp['articleResult'])      ? $tmp['articleResult']      : (object)[];
+                    $tmp = isset($tmp['data'])               ? $tmp['data']               : (object)[];
+                    $tmp = isset($tmp['article'])            ? $tmp['article']            : (object)[];
+                    $tmpS = $tmp;
 
-                    if (isset($data['props']['pageProps']['articleResult']['data']['article']['productAvailability']['productPageStockVolume'])) {
-                        $tmpStok[2] = $data['props']['pageProps']['articleResult']['data']['article']['productAvailability']['productPageStockVolume'];
+                    $tmp = isset($tmp['prices'])             ? $tmp['prices']             : (object)[];
+                    $tmp = isset($tmp['priceBreaks'])        ? $tmp['priceBreaks']        : [];
+                    $tmp = isset($tmp[0])                    ? $tmp[0]                    : (object)[];
+                    $tmp = isset($tmp['roundedVatIncPrice']) ? $tmp['roundedVatIncPrice'] : null;
+
+                    $tmpS = isset($tmpS['productAvailability']) ? $tmpS['productAvailability'] : (object)[];
+                    $tmpS = isset($tmpS['productPageStockVolume']) ? $tmpS['productPageStockVolume'] : null;
+
+                    if (!is_null($tmp)) {
+                        $tmpPrice[8] = ceil(floatval($tmp));
+                    }
+    
+                    if (!is_null($tmpS)) {
+                        $tmpStok[2] = $tmpS;
                     }
                 }
             }
             
+            if ($tmpPrice[8] == 0) continue;
             if ($tmpStok[2] == 0) continue;
 
             writeCSVRow($products_file, $tmpProduct); unset($tmpProduct);
@@ -324,7 +342,9 @@ function rs_get_products ($categories) {
             writeCSVRow($stok_file, $tmpStok); unset($tmpStok);
 
             $tmpColumnCount = 0;
-            $paramRow = [$product -> id];
+            $paramRow = [
+                $product -> stockNumber
+            ];
 
             foreach ($product -> specificationAttributes as $param) {
                 $paramRow[] = $param -> key;

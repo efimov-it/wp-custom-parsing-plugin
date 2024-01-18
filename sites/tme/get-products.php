@@ -132,15 +132,15 @@ function TME_get_products ($symbols = []) {
         $response = api_call('Products/GetStocks', $params);
         $result = json_decode($response, true);
         if (!$result) {
-            echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o nalichie tovarov.\n";
+            // echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o nalichie tovarov.\n";
             continue;
         }
         if (!isset($result['Status'])) {
-            echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o nalichie tovarov.\n";
+            // echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o nalichie tovarov.\n";
             continue;
         }
         if ($result['Status'] !== 'OK') {
-            echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o nalichie tovarov.\n";
+            // echo "[" . date("H:i:s d.m.Y", time()) . "] Oshibka - ne udalos zagruzit informaciu o nalichie tovarov.\n";
             continue;
         }
         foreach ($result['Data']['ProductList'] as $product) {
